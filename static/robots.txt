@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://mapage.fr/sitemap-0.xml

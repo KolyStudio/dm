@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Ma page - Page d'Accueil</title>
+	<title>Ma Page privée - Page d'Accueil</title>
 	<meta
 		name="description"
 		content={`Accéder à la page privée de nombreuses filles pour consulter sa présentation et ses photos. Elles répondent généralement aux messages privés en moins d'une heure.`}

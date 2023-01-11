@@ -24,7 +24,7 @@
 			<div class="rounded-xl bg-white shadow-xl">
 				<div class="p-6 sm:p-16">
 					<div class="space-y-4">
-						<h2 class="mb-4 text-2xl text-cyan-900 font-bold text-center">Ma Page</h2>
+						<h2 class="mb-4 text-2xl text-cyan-900 font-bold text-center">Ma Page Privée</h2>
 					</div>
 					<nav class="mt-16 grid space-y-4">
 						{#each pseudos as pseudo, i}

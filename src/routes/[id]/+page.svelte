@@ -56,7 +56,7 @@
 	}
 
 	let link =
-		`https://www.rencontres-proximite.com/?acme=wid.90642&siteid=3461948&tpls=73&v=sexy&userName=MISSBELLY&userPhotos=54&userDistance=7&userPicture=https://www.monprofil.club/poster.webp&s1=cash&s2=` +
+		`https://www.rencontres-proximite.com/?acme=wid.90642&siteid=3461948&tpls=73&v=sexy&userName=MISSBELLY&userPhotos=54&userDistance=7&userPicture=https://maprivee.fr/poster.webp&s1=cash&s2=` +
 		date;
 
 	function smartLink() {
@@ -79,13 +79,13 @@
 
 	<meta property="og:title" content="@{prenom}">
 	<meta name="og:description" content={`Accéder à la page privée de ${prenom} pour consulter sa présentation et ses photos. ${prenom} répond généralement aux messages privés en moins d'une heure.`}/>
-	<meta property="og:image" content="https://page-privee.fr/0_base/newmissliberty1.jpg">
-	<meta property="og:image:secure_url" content="https://page-privee.fr/0_base/newmissliberty1.jpg">
+	<meta property="og:image" content="favicon.png">
+	<meta property="og:image:secure_url" content="favicon.png">
 
 	<meta property="profile:username" content="{prenom}">
 	<meta name="twitter:title" content="@{prenom}">
 	<meta name="twitter:description" content={`Accéder à la page privée de ${prenom} pour consulter sa présentation et ses photos. ${prenom} répond généralement aux messages privés en moins d'une heure.`}>
-	<meta name="twitter:image" content="https://page-privee.fr/0_base/newmissliberty1.jpg">
+	<meta name="twitter:image" content="favicon.png">
 	<meta name="twitter:card" content="summary_large_image">
 
 	<meta property="og:image:height" content="600"><meta property="og:image:type" content="image/jpg">

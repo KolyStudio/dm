@@ -36,8 +36,10 @@
 
 		if (!ipay.carrier.name) {
 			monip = `vers ` + ipay.location.city;
+			console.log(monip)
 		} else {
 			monip = '';
+			console.log(monip)
 		}
 	});
 
@@ -102,7 +104,7 @@
 
 </svelte:head>
 
-<h1 class="text-center font-bold uppercase text-or mt-4 text-lg">{prenom}</h1>
+<h1 class="text-center font-bold uppercase text-[#ffedf6] text-lg">{prenom}</h1>
 <div class="hidden">
 	Accéder à la page privée de {prenom} pour consulter sa présentation et ses photos. {prenom} répond
 	généralement aux messages privés en moins d'une heure.

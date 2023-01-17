@@ -79,13 +79,13 @@
 
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 
-	<meta property="og:title" content="@{prenom}">
+	<!-- <meta property="og:title" content="@{prenom}"> -->
 	<meta name="og:description" content={`Accéder à la page privée de ${prenom} pour consulter sa présentation et ses photos. ${prenom} répond généralement aux messages privés en moins d'une heure.`}/>
 	<meta property="og:image" content="favicon.png">
 	<meta property="og:image:secure_url" content="favicon.png">
 
-	<meta property="profile:username" content="{prenom}">
-	<meta name="twitter:title" content="@{prenom}">
+	<!-- <meta property="profile:username" content="{prenom}"> -->
+	<!-- <meta name="twitter:title" content="@{prenom}"> -->
 	<meta name="twitter:description" content={`Accéder à la page privée de ${prenom} pour consulter sa présentation et ses photos. ${prenom} répond généralement aux messages privés en moins d'une heure.`}>
 	<meta name="twitter:image" content="favicon.png">
 	<meta name="twitter:card" content="summary_large_image">

@@ -81,8 +81,8 @@
 
 	<!-- <meta property="og:title" content="@{prenom}"> -->
 	<meta name="og:description" content={`Accéder à la page privée de ${prenom} pour consulter sa présentation et ses photos. ${prenom} répond généralement aux messages privés en moins d'une heure.`}/>
-	<meta property="og:image" content="favicon.png">
-	<meta property="og:image:secure_url" content="favicon.png">
+	<!-- <meta property="og:image" content="favicon.png"> -->
+	<!-- <meta property="og:image:secure_url" content="favicon.png"> -->
 
 	<!-- <meta property="profile:username" content="{prenom}"> -->
 	<!-- <meta name="twitter:title" content="@{prenom}"> -->
@@ -90,8 +90,8 @@
 	<meta name="twitter:image" content="favicon.png">
 	<meta name="twitter:card" content="summary_large_image">
 
-	<meta property="og:image:height" content="600"><meta property="og:image:type" content="image/jpg">
-	<meta property="og:image:width" content="600"><meta property="og:locale" content="en_US">
+	<!-- <meta property="og:image:height" content="600"><meta property="og:image:type" content="image/jpg">
+	<meta property="og:image:width" content="600"><meta property="og:locale" content="en_US"> -->
 	<meta property="og:site_name" content="Ma Page">
 	<meta property="og:type" content="profile">
 	<meta content="2419200"><meta name="twitter:card" content="summary_large_image">

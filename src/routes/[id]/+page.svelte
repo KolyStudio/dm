@@ -119,7 +119,8 @@
 <div class="relative">
 	<div class={show ? 'noshow' : 'show'}>
 		<div
-			class="m rounded-b-2xl pt-2 h-[150px] relative bg-scroll bg-cover bg-banner bg-bottom backdrop-blur"
+		style="background-image: url(banner.webp);"
+			class="m rounded-b-2xl pt-2 h-[150px] relative bg-scroll bg-cover  bg-bottom backdrop-blur"
 		>
 			<div class="flex justify-center  absolute -bottom-5 right-5 ">
 				<div
@@ -306,7 +307,9 @@
 		<div class="bg-white pt-4  h-full w-full ">
 			<div class="border-2 rounded-2xl  w-[95%]  pb-4 m-auto text-red font-semibold">
 				<div
-					class=" rounded-t-2xl pt-2 h-[80px] relative bg-scroll bg-cover bg-banner bg-bottom backdrop-blur"
+				style="background-image: url(banner.webp);"
+
+					class=" rounded-t-2xl pt-2 h-[80px] relative bg-scroll bg-cover  bg-bottom backdrop-blur"
 				>
 					<div class="flex justify-center  absolute -bottom-5 right-5 ">
 						<div

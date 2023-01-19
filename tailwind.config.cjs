@@ -5,11 +5,10 @@ module.exports = {
     extend: {
       colors: {
         'or': '#800048',
-        'vert': '#800048'
         
       },
         backgroundImage: {
-          'banner': "url('../banner.jpeg')",
+          'banner': "url('../banner.webp')",
         },
     },
   },

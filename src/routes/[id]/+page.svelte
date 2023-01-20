@@ -220,14 +220,14 @@
 				class=" font-semibold text- py-3 px-2 w-[50%] text-center border-b-4 border-[#FA0179] flex items-center space-x-2 justify-center"
 			>
 				<img alt={prenom} src="/icons/photo.webp" class="w-4 -mt-[2px]" />
-				<p>169 nudes</p>
+				<p>33 nudes</p>
 			</div>
 			<a
 			href={link}
 				class=" font-semibold text- py-3 px-2 w-[50%] text-center flex items-center space-x-2 justify-center"
 			>
 				<img alt={prenom} src="/icons/video.webp" class="w-4 -mt-[2px]" />
-				<p>56 vidéos</p>
+				<p>12 vidéos</p>
 			</a>
 		</div>
 

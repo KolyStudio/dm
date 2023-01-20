@@ -147,7 +147,7 @@
 
 	<a
 		href={link}
-		class="cursor-pointer  bg-gradient-to-r  from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
+		class="cursor-pointer  bg-gradient-to-r  from-[#09BC8A] to-[#09BC8A] border-b-4 border-[#08956d] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
 	>
 		<div>{` ME CONTACTER MAINTENANT `}</div>
 	</a>
@@ -193,7 +193,7 @@
 
 	<a
 	href={link}
-		class="cursor-pointer  bg-gradient-to-r   from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
+		class="cursor-pointer  bg-gradient-to-r   from-[#09BC8A] to-[#09BC8A] border-b-4 border-[#08956d] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
 	>
 		<div>{` CLIQUE ICI POUR VOIR MON PROFIL `}</div>
 	</a>
@@ -261,7 +261,7 @@
 		</div>
 
 		<a href={link}
-			class="cursor-pointer  bg-gradient-to-r   from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
+			class="cursor-pointer  bg-gradient-to-r   from-[#09BC8A] to-[#09BC8A] border-b-4 border-[#08956d] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
 		>
 			<div>{` S'INSCRIRE SUR JM DATE 🔞`}</div>
 		</a>

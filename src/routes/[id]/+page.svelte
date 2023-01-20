@@ -304,8 +304,8 @@
 	</div>
 
 	<div class={show ? 'show' : 'noshow'}>
-		<div class="bg-white pt-4  h-full w-full ">
-			<div class="border-2 rounded-2xl  w-[95%]  pb-4 m-auto text-red font-semibold">
+		<div class="bg-[#ff63ae] py-4  h-full w-full ">
+			<div class="border-k2 rounded-2xl  w-[95%]  pb-4 m-auto text-red font-semibold bg-white">
 				<div
 				style="background-image: url(banner.webp);"
 
@@ -360,7 +360,7 @@
 				>
 			</div>
 
-			<div id="form2" />
+			<div id="form2" class="" />
 		</div>
 	</div>
 </div>

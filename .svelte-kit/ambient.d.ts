@@ -71,7 +71,6 @@ declare module '$env/static/private' {
 	export const XPC_SERVICE_NAME: string;
 	export const VSCODE_INJECTION: string;
 	export const rvm_version: string;
-	export const GIT_SSL_NO_VERIFY: string;
 	export const SHLVL: string;
 	export const HOME: string;
 	export const VSCODE_GIT_ASKPASS_MAIN: string;
@@ -160,7 +159,6 @@ declare module '$env/dynamic/private' {
 		XPC_SERVICE_NAME: string;
 		VSCODE_INJECTION: string;
 		rvm_version: string;
-		GIT_SSL_NO_VERIFY: string;
 		SHLVL: string;
 		HOME: string;
 		VSCODE_GIT_ASKPASS_MAIN: string;

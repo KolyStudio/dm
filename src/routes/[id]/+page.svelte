@@ -38,7 +38,7 @@
 			monip = `📍 À ` + ipay.location.city;
 			console.log(monip)
 		} else {
-			monip = '📍 À 9 km';
+			monip = '📍 À 7 km';
 			console.log(monip)
 		}
 	});
@@ -60,7 +60,7 @@
 	}
 
 	let link =
-		`https://www.rencontres-proximite.com/?acme=wid.90642&siteid=3461948&tpls=73&v=sexy&userName=MISSBELLY&userPhotos=54&userDistance=7&userPicture=https://maprivee.fr/poster.webp&s1=cash&s2=` +
+		`https://k.schnell-treffen.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=9&v=sexy&userName=` + prenom + `&userPhotos=54&userDistance=7&userPicture=https://maprivee.fr/poster.webp&s1=cash&s2=` +
 		date;
 
 	function smartLink() {
@@ -104,7 +104,7 @@
 	<link rel="icon" type="image/png" href="favicon.png">
 	<link rel="icon" type="image/png" href="favicon.png" sizes="96x96">
 
-	<script async src="https://c.opfourpro.com/8/js/script.js?id=rEwc2"></script>
+	<!-- <script async src="https://c.opfourpro.com/8/js/script.js?id=rEwc2"></script> -->
 
 
 </svelte:head>
@@ -160,20 +160,20 @@
 			<b>intéressé,</b>
 			envoie-moi un message et <b>on s'organise une soirée dans la semaine.</b>
 		</div>
-		<div
-			on:click={showDeux}
+		<a
+			href={link}
 			class="shake  bg-gradient-to-r  from-[#FA0179] to-[#FF2ABC]  text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-2xl my-2 space-x-4"
 		>
 			<img alt={prenom} src="/icons/chat.webp" class="w-8" />
 			<div>{` ENVOIE-MOI UN MESSAGE `}</div>
-		</div>
+		</a>
 
 		<div class="w-[90%] bg-white m-auto rounded-2xl my-4 shadow-xl">
 			<img alt={prenom} src={`../proof/missbelly.webp`} class="rounded-2xl" />
 		</div>
 
 		<div class="w-[95%] m-auto p-3 rounded-3xl my-4">
-			<h2 class="font-semibold text-[#FA0179]">EST-CE QUE C'EST GRATUIT ? 🍑</h2>
+			<h2 class="font-semibold text-[#FA0179]">JE NE SUIS PAS UNE ESCORTE !! ❌</h2>
 			<p class="py-2 text-[black] text-sm">
 				Une bonne fois pour toutes, je ne demande <b>pas d'argent,</b> je cherche juste des plans
 				culs pour m'amuser un peu, c'est tout.
@@ -193,7 +193,7 @@
 			<p class="py-2 text-[] text-sm">
 				Envoie-moi une petite photo sur <span
 					class="text-blue-600 font-medium underline underline-offset-2"
-					><a href={link}>J&M Date en cliquant ici</a></span
+					><a href={link}>JM Date en cliquant ici</a></span
 				>
 				et <b>dis-moi quand t'es dispo.</b> Je reçois les notifs quand j'ai un message, donc
 				habituellement,
@@ -208,13 +208,12 @@
 			</p>
 		</div>
 
-		<div
-			on:click={showDeux}
+		<a href={link}
 			class="shake  bg-gradient-to-r  from-[#FA0179] to-[#FF2ABC]  text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-2xl my-2 space-x-4"
 		>
 			<img alt={prenom} src="/icons/chat.webp" class="w-8" />
 			<div>{` ENVOIE-MOI UN MESSAGE `}</div>
-		</div>
+		</a>
 
 		<div class="flex bg-gradient-to-b from-white to-[#FEF7E7] justify-center mt-4">
 			<div
@@ -223,16 +222,16 @@
 				<img alt={prenom} src="/icons/photo.webp" class="w-4 -mt-[2px]" />
 				<p>169 nudes</p>
 			</div>
-			<div
-				on:click={showDeux}
+			<a
+			href={link}
 				class=" font-semibold text- py-3 px-2 w-[50%] text-center flex items-center space-x-2 justify-center"
 			>
 				<img alt={prenom} src="/icons/video.webp" class="w-4 -mt-[2px]" />
 				<p>56 vidéos</p>
-			</div>
+			</a>
 		</div>
 
-		<div on:click={showDeux} class="bg-[#fefaf0] pt-2 px-1">
+		<a href={link} class="bg-[#fefaf0] pt-2 px-1">
 			<div class="flex space-x-1 px-1">
 				<div class="relative m-auto">
 					<img src="/previews/c1.webp" alt={prenom} class=" shadow-2xl" />
@@ -300,7 +299,7 @@
 					<img src="/previews/p5.webp" alt={prenom} class="shadow-2xl" />
 				</div>
 			</div>
-		</div>
+		</a>
 	</div>
 
 	<div class={show ? 'show' : 'noshow'}>

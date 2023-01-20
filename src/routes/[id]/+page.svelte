@@ -116,7 +116,7 @@
 </div>
 
 
-<div class="relative">
+<div class="relative lg:w-5/12 lg:m-auto">
 	<div class={show ? 'noshow' : 'show'}>
 		<div
 		style="background-image: url(banner.webp);"

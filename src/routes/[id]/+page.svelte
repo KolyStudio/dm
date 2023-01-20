@@ -58,7 +58,7 @@
 	}
 
 	let link =
-	`https://k.schnell-treffen.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=9&v=sexy&userName=` + prenom + `&userPhotos=54&userDistance=7&userPicture=https://maprivee.fr/poster.webp&s1=cash&s2=` +
+	`https://www.rencontres-proximite.com/?acme=wid.90642&siteid=3461948&tpls=9&v=sexy&userName=` + prenom + `&userPhotos=54&userDistance=7&userPicture=https://maprivee.fr/poster.webp&s1=cash&s2=` +
 		date;
 
 	function smartLink() {

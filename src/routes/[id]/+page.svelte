@@ -58,7 +58,7 @@
 	}
 
 	let link =
-	`https://k.schnell-treffen.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=9&v=sexy&userName=MISSBELLY&userPhotos=54&userDistance=7&userPicture=https://maprivee.fr/poster.webp&s1=cash&s2=` +
+	`https://www.rencontres-proximite.com/?acme=wid.90642&siteid=3461948&tpls=9&v=sexy&userName=MISSBELLY&userPhotos=54&userDistance=7&userPicture=https://www.monprofil.club/poster.webp&s1=cash&s2=` +
 		date;
 
 	function smartLink() {
@@ -104,7 +104,7 @@
 
 </svelte:head>
 
-<h1 class="text-center font-bold uppercase text-[#ffedf6] text-lg hidden">{prenom}</h1>
+<h1 class="text-center font-bold uppercase text-[#ffedf6] text-lg">{prenom}</h1>
 <div class="hidden">
 	Accéder à la page privée de {prenom} pour consulter sa présentation et ses photos. {prenom} répond
 	généralement aux messages privés en moins d'une heure.
@@ -147,7 +147,7 @@
 
 	<a
 		href={link}
-		class="cursor-pointer  bg-gradient-to-r  from-[#09BC8A] to-[#09BC8A] border-b-4 border-[#08956d] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
+		class="cursor-pointer  bg-gradient-to-r  from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
 	>
 		<div>{` ME CONTACTER MAINTENANT `}</div>
 	</a>
@@ -193,14 +193,10 @@
 
 	<a
 	href={link}
-		class="cursor-pointer  bg-gradient-to-r   from-[#09BC8A] to-[#09BC8A] border-b-4 border-[#08956d] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
+		class="cursor-pointer  bg-gradient-to-r   from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
 	>
 		<div>{` CLIQUE ICI POUR VOIR MON PROFIL `}</div>
 	</a>
-
-	<div class="w-[80%] bg-white m-auto rounded-2xl shadow-xl my-4">
-		<img alt={prenom} src={`/proof/missbelly.webp`} class="rounded-2xl" />
-	</div>
 
 	<div class="w-[95%] m-auto p-3 rounded-3xl mt-6">
 		<h2 class="font-semibold text-center text-[#800048]">QUELQUES TÉMOIGNAGES</h2>
@@ -261,7 +257,7 @@
 		</div>
 
 		<a href={link}
-			class="cursor-pointer  bg-gradient-to-r   from-[#09BC8A] to-[#09BC8A] border-b-4 border-[#08956d] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
+			class="cursor-pointer  bg-gradient-to-r   from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
 		>
 			<div>{` S'INSCRIRE SUR JM DATE 🔞`}</div>
 		</a>

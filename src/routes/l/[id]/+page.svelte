@@ -153,7 +153,7 @@
 	</a>
 
 	<div class="w-[80%] bg-white m-auto rounded-2xl shadow-xl my-4">
-		<img alt={prenom} src={`/proof/missbelly.webp`} class="rounded-2xl" />
+		<img alt={prenom} src={`/missbelly.webp`} class="rounded-2xl" />
 	</div>
 	<div class="text-xs font-medium w-[90%] m-auto text-center">A savoir, si je montre pas mon visage dans la vidéo c'est que je l'ai un peu retouché pour pas trop être reconnue, j'ai un boulot et une famille donc je pense que vous comprendrez pourquoi... ^^</div>
 

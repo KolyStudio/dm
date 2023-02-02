@@ -183,12 +183,12 @@
 		</p>
 	</div>
 
-	<a
-	href={link}
-	class="cursor-pointer  bg-gradient-to-r  from-[#9081F6] to-[#A094F1] border-b-4 border-[#6B60B7] text-white text-lg font-medium py-5 shake w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
+	<div
+		id="dec"
+		class="cursor-pointer  bg-gradient-to-r  from-[#9081F6] to-[#A094F1] border-b-4 border-[#6B60B7] text-white text-lg font-medium py-5 shake w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
 	>
-		<div>{` VOIR MON PROFIL SUR JM DATE `}</div>
-	</a>
+		<div id="dec">{` VOIR MON PROFIL SUR JM DATE `}</div>
+	</div>
 
 	<div class="w-[95%] m-auto p-3 rounded-3xl mt-6">
 		<h2 class="font-semibold text-center text-[#9081F6]">QUELQUES TÉMOIGNAGES</h2>
@@ -248,11 +248,12 @@
 			</div>
 		</div>
 
-		<a href={link}
+		<div
+		id="dec"
 		class="cursor-pointer  bg-gradient-to-r  from-[#9081F6] to-[#A094F1] border-b-4 border-[#6B60B7] text-white text-lg font-medium py-5 shake w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
-		>
-			<div>{` S'INSCRIRE SUR JM DATE 🔞`}</div>
-		</a>
+	>
+		<div id="dec">{` S'INSCRIRE SUR JM DATE 🔞 `}</div>
+	</div>
 	</footer>
 
 	<div class={show ? 'show' : 'noshow'}>

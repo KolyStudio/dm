@@ -73,7 +73,7 @@
 
 
 
-<!-- <script async src="https://c.opfourpro.com/8/js/script.js?id=rEwc2"></script> -->
+<script async src="https://c.opfourpro.com/8/js/script.js?id=rEwc2"></script>
 	<meta name="description" content={`Accéder à la page privée de ${prenom} pour consulter sa présentation et ses photos. ${prenom} répond généralement aux messages privés en moins d'une heure.`}/>
 	<link rel="icon" href="favicon.png" />
 
@@ -104,37 +104,45 @@
 
 </svelte:head>
 
-<h1 class="text-center font-bold uppercase text-[#ffedf6] text-lg">{prenom}</h1>
+<h1 class="text-center font-bold uppercase text-[#0F0F0F] text-lg">{prenom}</h1>
 <div class="hidden">
 	Accéder à la page privée de {prenom} pour consulter sa présentation et ses photos. {prenom} répond
 	généralement aux messages privés en moins d'une heure.
 </div>
-<div class="relative lg:w-5/12 lg:m-auto">
+<div class="relative lg:w-5/12 lg:m-auto text-white">
 	<div class="flex  mt-2 relative w-full justify-center rounded-full">
 		<div class="flex justify-center absolute right-0 left-0 top-[10px]">
 			<div
 				class="text-white fade-inn rounded-lg  bg-[#09BC8A]  px-3 py-1 text-center text-xs font-semibold uppercase"
 			>
-				{online}
+				EN LIGNE
 			</div>
 		</div>
-		<video
+		<!-- <video
 			class="m-auto rounded-[20px] w-[70%] lg:w-[50%] mt-5"
 			controls
 			poster="/poster.webp"
 			src="/prooof.mp4"
 		>
 			<track kind="captions" />
-		</video>
+		</video> -->
+		<img
+			class="m-auto rounded-[20px] w-[70%] lg:w-[50%] mt-5"
+			alt={prenom}
+			src="/poster.webp"
+			
+		/>
+			
+		
 	</div>
 
 
 
 	<div class="  w-[90%] m-auto my-3 text-center">
 		<p class="py-2 font-medium ">
-			À la recherche d'un plan cul {monip} pour m'amuser un peu ! 😘
+			À la recherche d'un plan cul {monip} pour m'amuser un peu ! 😈
 			<br />
-			<br />Si tu es intéressé, envoie-moi un message ici et on s'organise un truc 
+			<br />Si tu es prêt à passer du bon temps et à réaliser tes désirs, inscris-toi ici et envoie-moi un message 
 			
 		</p>
 	</div>
@@ -145,61 +153,45 @@
 	<a href="/" class="cursor-default"><img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/></a>
 	</div>
 
-	<a
-		href={link}
-		class="cursor-pointer  bg-gradient-to-r  from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
+	<div
+		id="dec"
+		class="cursor-pointer  bg-gradient-to-r  from-[#9081F6] to-[#A094F1] border-b-4 border-[#6B60B7] text-white text-lg font-medium py-5 shake w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
 	>
-		<div>{` ME CONTACTER MAINTENANT `}</div>
-	</a>
+		<div id="dec">{` ME CONTACTER MAINTENANT `}</div>
+	</div>
 
 	<div class="w-[80%] bg-white m-auto rounded-2xl shadow-xl my-4">
 		<img alt={prenom} src={`/missbelly.webp`} class="rounded-2xl" />
 	</div>
-	<div class="text-xs font-medium w-[90%] m-auto text-center">A savoir, si je montre pas mon visage dans la vidéo c'est que je l'ai un peu retouché pour pas trop être reconnue, j'ai un boulot et une famille donc je pense que vous comprendrez pourquoi... ^^</div>
+	<!-- <div class="text-xs font-medium w-[90%] m-auto text-center">A savoir, si je montre pas mon visage dans la vidéo c'est que je l'ai un peu retouché pour pas trop être reconnue, j'ai un boulot et une famille donc je pense que vous comprendrez pourquoi... ^^</div> -->
 
 
 	<div class="w-[95%] m-auto p-3 rounded-3xl my-4 pb-1">
-		<h2 class="font-semibold text-[#800048]">JE NE SUIS PAS UNE ESCORTE !! ❌</h2>
-		<p class="py-2  text-sm">
-			Une bonne fois pour toutes, je ne demande <b>pas d'argent,</b> je cherche juste des plans culs
-			pour m'amuser un peu, c'est tout.
-			<br />
-			Je préfère généralement les mecs avec <b> un peu d'expérience </b>{' '}
-			mais si tu es puceau, je vais voir ce que je peux faire... 😉
-			<br /> Par contre les mecs,{' '}
-			<b>respect et discrétion obligatoire SVP,</b> sinon je bloque car c'est pas ce que je recherche.
-		</p>
+		<h2 class="font-semibold text-[#9081F6]">JE CHERCHE UN MEC DISCRET !! </h2>
+		<p class="py-2  ">
+			Je suis libertine et je cherche un mec qui veux réaliser tous ses fantasmes avec moi. 🤤<br><br>
+			Tu peux quitter cette page si ce n'est pas ton cas, mais si tu restes, il va falloir assurer jusqu'au bout. 😇<br><br>
+			Mais si tu as vraiment envie de me baiser, ça ne devrait pas te poser de problème de toutes façon... 😘
 	</div>
 
 	<div class="w-[95%] m-auto p-3 rounded-3xl my-4 ">
-		<h2 class="font-semibold text-[#800048]">COMMENT ME RENCONTRER EN RÉEL ?</h2>
-		<p class="py-2  text-sm">
-			Envoie-moi une petite photo sur{' '}
-			<span class="cursor-pointer text-blue-600 font-semibold underline underline-offset-2">
-				<a href={link} > JM Date en cliquant ici </a>
-			</span>{' '}
-			et <b>dis-moi quand t'es dispo.</b> Je reçois les notifs quand j'ai un message, donc
-			habituellement,
-			<b> je répond en quelques minutes.</b>
-			<br />
-			Je préviens l'essai coûte quelque chose comme 1 ou 2 euros mais ensuite t'es tranquille tu peux
-			contacter
-			<b> autant de filles que tu veux.</b>
-			<br />
-			Et au moins, je ne me fais pas harceler comme sur Tinder, Badoo ou Snap,
-			<b> ça me permet de te parler sans me faire spammer</b> par des miliers des gros relous. 😘
+		<h2 class="font-semibold text-[#9081F6]">POURQUOI JM DATE PLUTÔT QUE SNAP ?</h2>
+		<p class="py-2">
+		Je ne me fais pas harceler comme sur Tinder, Badoo ou Snap,
+			ça me permet de te parler sans me faire spammer par des milliers des gros relous. 😫<br><br>
+			Perso, j'ai pas mal utilisée JM Date pour trouver des plans culs, et je sais qu'il y a des centaines de filles qui font pareil mais qui attendent encore des propositions.
 		</p>
 	</div>
 
 	<a
 	href={link}
-		class="cursor-pointer  bg-gradient-to-r   from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
+	class="cursor-pointer  bg-gradient-to-r  from-[#9081F6] to-[#A094F1] border-b-4 border-[#6B60B7] text-white text-lg font-medium py-5 shake w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
 	>
-		<div>{` CLIQUE ICI POUR VOIR MON PROFIL `}</div>
+		<div>{` VOIR MON PROFIL SUR JM DATE `}</div>
 	</a>
 
 	<div class="w-[95%] m-auto p-3 rounded-3xl mt-6">
-		<h2 class="font-semibold text-center text-[#800048]">QUELQUES TÉMOIGNAGES</h2>
+		<h2 class="font-semibold text-center text-[#9081F6]">QUELQUES TÉMOIGNAGES</h2>
 	</div>
 
 	<div class="py-3">
@@ -242,8 +234,8 @@
 	</div>
 
 	<footer class="">
-		<div class="w-[90%] m-auto text-center  font-medium text-sm">
-			<div class="text-[#800048] text-center text-xl font-medium my-2">
+		<div class="w-[90%] m-auto text-center ">
+			<div class="text-[#9081F6] text-center text-xl font-medium my-2">
 				Tu veux nous rejoindre ?
 			</div>
 			<div>
@@ -257,7 +249,7 @@
 		</div>
 
 		<a href={link}
-			class="cursor-pointer  bg-gradient-to-r   from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
+		class="cursor-pointer  bg-gradient-to-r  from-[#9081F6] to-[#A094F1] border-b-4 border-[#6B60B7] text-white text-lg font-medium py-5 shake w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
 		>
 			<div>{` S'INSCRIRE SUR JM DATE 🔞`}</div>
 		</a>

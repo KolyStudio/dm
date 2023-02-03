@@ -1,10 +1,16 @@
 const pseudos = [
     '',
-    'manobelly01',
-    'sandrabelly02',
-    'casabelly01',
-    'cassoubelly01',
-    'malabelly01'
+    'lisounelle06',
+    'ambrejolie50',
+    'samanthelle24',
+    'lolajolie09',
+    'marinouche57',
+    'missjulie980',
+    'misscandy53',
+    'marinelle098',
+    'oceanebaby26',
+    'melissabella30',
+    'louisette079'
    ]
 
 export default pseudos;

@@ -3,7 +3,7 @@ import dayjs from 'dayjs';
 const date = dayjs().format('YYYY-MM-DD');
  
  export async function GET() {
-  const website = 'https://mapagesecrete.fr'
+  const website = 'https://mapagesecrete.com'
 
   const data = await fetch(website);
   const body = 

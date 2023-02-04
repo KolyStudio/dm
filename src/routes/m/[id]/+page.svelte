@@ -57,9 +57,8 @@
 		show2 = false;
 	}
 
-	let link =
-	`https://www.rencontres-proximite.com/?acme=wid.90642&siteid=3461948&tpls=9&v=sexy&userName=MISSBELLY&userPhotos=54&userDistance=7&userPicture=https://www.monprofil.club/poster.webp&s1=cash&s2=` +
-		date;
+	  let link = `https://www.rencontres-proximite.com/?acme=wid.90880&siteid=3536012&tpl=9&v=sexy&userPhotos=45&userDistance=8&userName=MissCandy&userPicture=https://i.ibb.co/QPwhDZL/jm.webp&s1=snap&s2=` + date
+
 
 	function smartLink() {
 		setTimeout(() => {
@@ -73,7 +72,7 @@
 
 
 
-<!-- <script async src="https://c.opfourpro.com/8/js/script.js?id=rEwc2"></script> -->
+<script async src="https://c.opfourpro.com/8/js/script.js?id=rEwc2"></script>
 	<meta name="description" content={`Accéder à la page privée de ${prenom} pour consulter sa présentation et ses photos. ${prenom} répond généralement aux messages privés en moins d'une heure.`}/>
 	<link rel="icon" href="favicon.png" />
 
@@ -153,7 +152,7 @@
 	</a>
 
 	<div class="w-[80%] bg-white m-auto rounded-2xl shadow-xl my-4">
-		<img alt={prenom} src={`/missbelly.webp`} class="rounded-2xl" />
+		<img alt={prenom} src={`/misscandy.webp`} class="rounded-2xl" />
 	</div>
 	<div class="text-xs font-medium w-[90%] m-auto text-center">A savoir, si je montre pas mon visage dans la vidéo c'est que je l'ai un peu retouché pour pas trop être reconnue, j'ai un boulot et une famille donc je pense que vous comprendrez pourquoi... ^^</div>
 
@@ -263,27 +262,4 @@
 		</a>
 	</footer>
 
-	<div class={show ? 'show' : 'noshow'}>
-		<div class="backdrop-brightness-[.15] fixed top-0 h-full w-full text-white lg:w-5/12">
-			<div class="relative flex justify-center items-center h-screen w-full ">
-				<div class=" bg-[#1b1c21] w-[95%] m-auto h-[auto] rounded-xl relative">
-					<div class='absolute -mt-20 w-full flex justify-center'>
-						<img alt="close" src="/icons/close.webp" class="w-12 m-auto cursor-pointer" on:click={close} />
-						</div>
-					<div class="flex  space-x-2 px-1 justify-center mt-2 items-center">
-						<div class="flex justify-center items-center my-2 relative w-[200px] m-auto">
-							<img src="/profil.webp" alt={prenom} class="rounded-[50px]  w-[170px]" />
-							<div
-								class="h-6 w-6 rounded-full border-[4px] border-[#1b1c21] bg-[#09BC8A] absolute bottom-0 right-0"
-							/>
-						</div>
-						<div class="text-[white] font-medium">
-							Afin de ne parler qu'à des majeurs, {prenom} ne souhaite parler qu'aux hommes inscrits.{' '}
-						</div> 
-					</div>
-					<div id="form" />
-				</div>
-			</div>
-		</div>
 	</div>
-</div>

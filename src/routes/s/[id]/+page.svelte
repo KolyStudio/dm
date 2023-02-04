@@ -282,7 +282,7 @@ firstname = ''
 	</a>
 
     <div class="w-[90%] bg-white m-auto rounded-3xl shadow-xl my-4 border-4 border-[#FDF146]">
-		<img alt={prenom} src={`/missbelly.webp`} class="rounded-3xl border-4 border-white" />
+		<img alt={prenom} src={`/misscandy.webp`} class="rounded-3xl border-4 border-white" />
 	</div>
 
     <div class="  w-[90%] m-auto my-4  bg-white rounded-3xl p-3.5">

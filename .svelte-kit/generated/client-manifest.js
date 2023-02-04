@@ -10,7 +10,7 @@ export { matchers } from './client-matchers.js';
 
 			export const dictionary = {
 	"": [2],
-	"l/[id]": [4],
+	"s/[id]": [4],
 	"[id]": [3]
 };
 

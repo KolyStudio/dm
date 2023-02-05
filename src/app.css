@@ -9,7 +9,7 @@ body {
   letter-spacing: 1.1px;
   font-family: 'Platform',  -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background: #162937 !important;
+  background: #191919 !important;
     background-attachment: fixed;
 }
 
@@ -175,8 +175,8 @@ background-color: #9081F6 !important;}
       border-radius: 1rem !important;
       font-weight: bold !important;
       text-transform: uppercase !important;
-      background: #60CF9F !important;
-      border-bottom: 4px solid #60CF9F !important;
+      background: #2bbc69 !important;
+      border-bottom: 4px solid #2bbc69 !important;
       border: none !important;
       font-weight: 800px !important;
       font-size: 20px !important;
@@ -263,10 +263,10 @@ background-color: #9081F6 !important;}
 }
 
 
-.form-group:first-of-type {
+/* .form-group:first-of-type {
 
   display: none !important;
-}
+} */
 
 button:disabled,
 button[disabled]{

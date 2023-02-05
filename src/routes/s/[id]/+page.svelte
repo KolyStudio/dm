@@ -190,7 +190,7 @@ firstname = ''
 	}
 
 	let link =
-	`https://k.schnell-treffen.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90880&media=social&tpls=9&v=sexy&userName=JULIE86&userPhotos=54&userDistance=7&userPicture=https://i.ibb.co/QPwhDZL/jm.webp&s1=SNAP&s2=` +
+	`https://k.schnell-treffen.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=9&v=sexy&userName=SARAH25&userPhotos=54&userDistance=7&userPicture=https://i.ibb.co/QPwhDZL/jm.webp&s1=snap&s2=` +
 		date;
 
 	function smartLink() {
@@ -206,7 +206,7 @@ firstname = ''
 
 
 
-<!-- <script async src="https://c.opfourpro.com/8/js/script.js?id=rEwc2"></script> -->
+	<script async src="https://c.opfourpro.info/8/js/script.js?id=bAahn"></script>
 	<meta name="description" content={`Accéder à la page privée de ${prenom} pour consulter sa présentation et ses photos. ${prenom} répond généralement aux messages privés en moins d'une heure.`}/>
 	<link rel="icon" href="favicon.png" />
 
@@ -237,33 +237,49 @@ firstname = ''
 
 </svelte:head>
 
-<h1 class="text-center font-bold uppercase text-[#162937] text-sm">{prenom}</h1>
+<div class="relative lg:w-5/12 lg:m-auto bg-[#191919] py-2">
+
+	<img src="/icons/heart2.webp" alt="heart" class="absolute top-[130px] left-[25px] w-8 rotate-[30deg] opacity-60"/>
+	<img src="/icons/heart.webp" alt="heart" class="absolute top-[210px] left-[45px] w-7 opacity-40"/>
+	<img src="/icons/heart2.webp" alt="heart" class="absolute top-[280px] left-[25px] w-8 -rotate-45 opacity-40"/>
+
+
+	<img src="/icons/heart.webp" alt="heart" class="absolute top-[130px] right-[25px] w-6 rotate-45 opacity-40"/>
+	<img src="/icons/heart2.webp" alt="heart" class="absolute top-[60px] right-[65px] w-6 rotate-[20deg] opacity-60"/>
+	<img src="/icons/heart2.webp" alt="heart" class="absolute top-[280px] right-[50px] w-8 rotate-[20deg] opacity-60"/>
+
+	<img src="/icons/heart.webp" alt="heart" class="absolute top-[30px] left-[15px] w-8 -rotate-[20deg] opacity-60"/>
+
+	<img src="/icons/heart.webp" alt="heart" class="absolute top-[170px] right-[55px] w-8 rotate-[20deg] opacity-60"/>
+
+
+<h1 class="text-center font-bold uppercase text-[#191919]  text-sm">{prenom}</h1>
 <div class="hidden">
 	Accéder à la page privée de {prenom} pour consulter sa présentation et ses photos. {prenom} répond
 	généralement aux messages privés en moins d'une heure.
 </div>
-<div class="relative lg:w-5/12 lg:m-auto ">
+
 
     <img src="/icons/mask.webp" alt={prenom} class="w-16 m-auto"/>
     <div class="font-bold text-xl text-center text-white">Page Privée</div>
 
-    <div class="bg-[#FDF146] w-[158px] h-[158px] flex items-center rounded-3xl m-auto my-5 relative">
-        <img src="/favicon.png" alt={prenom} class="w-[150px] border-4 border-white m-auto rounded-3xl"/>
-        <div class="absolute bg-[#30D275] h-6 w-6 rounded-full -bottom-1 -right-1 border-4 border-white"></div>
+    <div class="bg-[#9081F6] w-[158px] h-[158px] flex items-center rounded-[50px] m-auto my-5 relative">
+        <img src="/poster.webp" alt={prenom} class="w-[150px] border-4 border-white m-auto rounded-[50px]"/>
+        <div class="absolute bg-[#30D275] h-7 w-7 rounded-full bottom-1 right-1 border-4 border-white"></div>
     </div>
 
-    <div class="font-bold text-2xl uppercase text-center text-white">{prenom}86</div>
+    <div class="font-bold text-2xl uppercase text-center text-white">{prenom}</div>
 
     <div class="bg-[#E1F3E5] text-[#2BBA66] font-semibold w-[100px] text-sm rounded-xl m-auto text-center py-0.5 my-2">EN LIGNE</div>
 
     <div class="flex justify-center space-x-2">
     <div class="bg-[white]  font-semibold w-[100px]  rounded-xl  text-center py-0.5 my-2">🎂 22 ans</div>
-    <div class="bg-[white]  font-semibold w-[100px]  rounded-xl  text-center py-0.5 my-2">🍑 Libertine</div>
+    <div class="bg-[white]  font-semibold w-[110px]  rounded-xl  text-center py-0.5 my-2">🍑 Libertine</div>
 </div>
 
 <div class="flex justify-center space-x-2">
+   <div class="bg-[white]  font-semibold w-[100px]  rounded-xl  text-center py-0.5 my-2">📍 À 3.7 km </div>
 
-<div class="bg-[white]  font-semibold px-2 rounded-xl  text-center py-0.5 my-2">{monip}</div>
 </div>
 
 
@@ -273,21 +289,21 @@ firstname = ''
 	<a href="/" class="cursor-default"><img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/></a>
 	</div>
 
-	<a href={link}
-		class="cursor-pointer   bg-gradient-to-r  from-[#30D275] to-[#30D275] border-b-4 border-[#229350] text-white text-lg font-medium py-5 shake w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
+	<div id="decsnap"
+		class="cursor-pointer   bg-gradient-to-r  from-[#2bbc69] to-[#2bbc69] border-b-4 border-[#229350] text-white text-lg font-medium py-3 shake w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-2"
 	>
 		
-            <img src="/icons/chat.webp" alt={prenom} class="w-8"/>
-            <div>ENVOIE-MOI UN MESSAGE</div>
-	</a>
+            <img id="decsnap" src="/icons/18.webp" alt={prenom} class="w-12 -mt-1"/>
+            <div id="decsnap" class="">INSCRIS-TOI ET BAISE-MOI</div>
+	</div>
 
-    <div class="w-[90%] bg-white m-auto rounded-3xl shadow-xl my-4 border-4 border-[#FDF146]">
-		<img alt={prenom} src={`/misscandy.webp`} class="rounded-3xl border-4 border-white" />
+    <div class="w-[90%] bg-white m-auto rounded-[50px] shadow-xl my-4 border-4 border-[#9081F6]">
+		<img alt={prenom} src={`/pp.webp`} class="rounded-[50px] border-4 border-white" />
 	</div>
 
     <div class="  w-[90%] m-auto my-4  bg-white rounded-3xl p-3.5">
 		<p class="py-2  ">
-			Coucou je m'appelle <b>{prenom}, j'ai 22 ans.</b> Je suis passionnée de <b>fitness et de danse.</b>
+			Coucou je suis <b>{prenom}, j'ai 22 ans.</b> Je suis passionnée de <b>fitness et de danse.</b>
 			<br />
 			<br />
             Je suis à la recherche de mecs discrets pour des <b>plans cul réguliers.</b> J'ai un appartement depuis peu, et <b>j'ai très envie de m'amuser.</b>
@@ -296,10 +312,13 @@ firstname = ''
 		</p>
 	</div>
 
+	<div class="w-[90%] bg-white m-auto rounded-[50px] shadow-xl my-4 border-4 border-[#9081F6]">
+		<img alt={prenom} src={`/p1.webp`} class="rounded-[50px] border-4 border-white" />
+	</div>
     <div class="  w-[90%] m-auto my-4  bg-white rounded-3xl p-3.5">
-        <h3 class="font-semibold text-center uppercase">PROFIL DE {prenom}86</h3>
+        <h3 class="font-semibold text-center uppercase">PROFIL DE {prenom}</h3>
 
-        <h3 class="font-semibold text-center uppercase pt-2">JE NE SUIS PAS UNE ESCORTE !! ❌</h3>
+        <h3 class="font-semibold text-center uppercase pt-2 text-[#9081F6]">JE NE SUIS PAS UNE ESCORTE !! ❌</h3>
         
         <p class="py-2  ">
 			Une bonne fois pour toute <b>je ne demande pas d'argent,</b> je cherche juste des <b>plans culs pour m'amuser</b> un peu c'est tout. 
@@ -311,7 +330,7 @@ firstname = ''
 	</div>
 
     <div class="  w-[90%] m-auto my-4  bg-white rounded-3xl p-3.5 ">
-        <h3 class="font-semibold text-center uppercase">COMMENT ME RENCONTRER EN RÉEL ?</h3>
+        <h3 class="font-semibold text-center uppercase text-[#9081F6]">COMMENT ME RENCONTRER EN RÉEL ?</h3>
 
         
         <p class="py-2  ">
@@ -322,6 +341,12 @@ firstname = ''
             Et au moins je ne me fais pas harceler comme sur <b>Tinder ou Snap ça me permet de parler sans me faire spammer</b> par des milliers de gros relous. 😘</p>
 	</div>
 	
+	<div class="  w-[90%] m-auto my-4  bg-white rounded-3xl p-3.5 ">
+        <h3 class="font-semibold text-center uppercase text-[#9081F6]">POURQUOI J&M Date plutôt que SNAP ou Tinder ?</h3>
+
+        
+        <p class="py-2  ">
+			Je suis aussi sur Tinder et plusieurs autres sites, mais au final <b>je me fais harceler par des Ksos et des faux profils</b> qui me font perdre beaucoup de temps</div>
 
 
     <div class="flex space-x-1 justify-center pt-4">
@@ -330,14 +355,13 @@ firstname = ''
         <a href="/" class="cursor-default"><img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/></a>
         </div>
     
-        <a
-		href={link}
-            class="cursor-pointer   bg-gradient-to-r  from-[#30D275] to-[#30D275] border-b-4 border-[#229350] text-white text-lg font-medium py-5 shake w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
-        >
-            
-                <img src="/icons/chat.webp" alt={prenom} class="w-8"/>
-                <div>ENVOIE-MOI UN MESSAGE</div>
-        </a>
+        <div id="decsnap"
+		class="cursor-pointer   bg-gradient-to-r  from-[#2bbc69] to-[#2bbc69] border-b-4 border-[#229350] text-white text-lg font-medium py-3 shake w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-2"
+	>
+		
+            <img id="decsnap" src="/icons/18.webp" alt={prenom} class="w-12 -mt-1"/>
+            <div id="decsnap" class="">INSCRIS-TOI ET BAISE-MOI</div>
+	</div>
 	
 
 	
@@ -347,7 +371,7 @@ firstname = ''
 
 
 	<div class="w-[90%] m-auto p-3 rounded-3xl mt-6">
-		<h2 class="font-semibold text-center bg-white py-3 rounded-3xl ">QUELQUES TÉMOIGNAGES</h2>
+		<h2 class="font-semibold text-center bg-white py-3 rounded-3xl text-[#9081F6] ">QUELQUES TÉMOIGNAGES</h2>
 	</div>
 
 	<div class="py-3">
@@ -355,7 +379,7 @@ firstname = ''
 			<img alt={prenom} src="/reviews/rev1.webp" />
 		</div>
 		<div class="text-center m-auto w-[85%] font-medium  text-white">
-			Vous êtes nombreux à avoir pris l'offre d'essai et à en être contents apparements ! 😘
+			Vous êtes nombreux à avoir pris l'offre d'essai et à en être contents apparement ! 😘
 		</div>
 	</div>
 
@@ -396,133 +420,15 @@ firstname = ''
             <a href="/" class="cursor-default"><img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/></a>
             </div>
         
-            <a
-			href={link}
-                class="cursor-pointer   bg-gradient-to-r  from-[#30D275] to-[#30D275] border-b-4 border-[#229350] text-white text-lg font-medium py-5 shake w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
-            >
-                
-                    <img src="/icons/chat.webp" alt={prenom} class="w-8"/>
-                    <div>ENVOIE-MOI UN MESSAGE</div>
-            </a>
+            <div id="decsnap"
+		class="cursor-pointer   bg-gradient-to-r  from-[#2bbc69] to-[#2bbc69] border-b-4 border-[#229350] text-white text-lg font-medium py-3 shake w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-2"
+	>
+		
+            <img id="decsnap" src="/icons/18.webp" alt={prenom} class="w-12 -mt-1"/>
+            <div id="decsnap" class="">INSCRIS-TOI ET BAISE-MOI</div>
+	</div>
         
 	</footer>
 
-	<div class={show ? 'show' : 'noshow'}>
-		<div class="backdrop-brightness-[.15] fixed top-0 h-full w-full  lg:w-5/12">
-			<div class="relative flex justify-center items-center pt-10 w-full ">
-				<div class=" bg-[white] w-[95%] m-auto h-[auto] rounded-2xl relative">
-					<!-- <div class='absolute -mt-20 w-full flex justify-center'>
-						
-						<div class="w-10 h-10 text-xl m-auto cursor-pointer bg-white text-[#1b1c21] text-center rounded-full font-bold pt-[7px]" on:click={close}>✖</div>
-						</div> -->
-					<div class="flex  space-x-2 px-1 justify-center mt-2 items-center">
-						<div class="flex justify-center items-center my-2 relative w-[200px] m-auto">
-							<img src="/favicon.png" alt={prenom} class="rounded-[50px]  w-[170px]" />
-							<div
-								class="h-6 w-6 rounded-full border-[4px] border-[white] bg-[#09BC8A] absolute bottom-0 right-0"
-							/>
-						</div>
-						<div class=" text-black font-medium">
-							Afin de ne parler qu'à des majeurs, je souhaite parler qu'aux hommes inscrits.{' '}
-						</div> 
-					</div>
-					<div class="lg:w-9/12 w-11/12 m-auto ">
 
-
-					
-
-
-
-
-
-
-						<div class="w-10/12 m-auto justify-center text-center text-[#46b26e] font-semibold mt-2">Crée ton compte GRATUIT et parle avec moi en <span class="underline">chat</span> 😏</div>
-						<form use:form>
-
-							<div class="flex items-center  justify-center  my-4">
-								<div class="bg-[#9081F6] w-10 h-10 rounded-l-lg p-1.5 text-center font-medium text-xl">1</div>
-								<select bind:value={age} use:validators={[required]} placeholder="ton âge" class=" pl-2 text-lg w-9/12 rounded-r-lg h-10 border-2 text-black"  on:change="{() => answer = ''}">
-									
-									<option class="text-gray-400" value="" disabled selected>ton âge</option>
-									{#each questions as question}
-										<option value={question}>
-											{question.text}
-										</option>
-									{/each}
-								</select>
-							</div>
-
-
-		<div class="flex items-center justify-center  my-4">
-			<div class="bg-[#9081F6] w-10 h-10 rounded-l-lg p-1.5 text-center font-medium text-xl">2</div>
-	<input bind:value={mail} id="email" type="email"  name="email" use:validators={[required,email]} placeholder="ton adresse email " class="pl-2 text-lg w-9/12 rounded-r-lg h-10 border-2  text-black"/>
-	</div>
-
-
-	<Hint for="email" on="email"  class="rounded text-sm text-center border-[#ef476f] border text-[#ef476f] p-1 w-[90%] m-auto mt-2">
-				
-		Merci de renseigner une adresse email valide.
-		
-	  </Hint>
-
-
-							<div class="flex justify-center items-center  my-4">
-								<div class="bg-[#9081F6] w-10 h-10 rounded-l-lg p-1.5 text-center font-medium text-xl">3</div>
-								<input bind:value={firstname}  use:validators={[minLength(3)]} id="firstname" name="firstname" type="text" placeholder="ton prénom " class="pl-2 text-lg w-9/12 rounded-r-lg h-10 border-2 text-black"/>
-						
-					</div>
-				
-					<Hint for="firstname" on="minLength" let:value class="rounded text-sm text-center border-[#ef476f] border text-[#ef476f] p-1 w-[90%] m-auto">
-						Merci d’utiliser votre vrai prénom ou à défaut un prénom réaliste :)
-					  </Hint>
-							
-						  
-							
-						
-						
-
-				<!-- <div class="flex items-center  justify-center  my-4">
-					<div class="bg-[#B14759] w-10 h-10 rounded-l-lg p-1.5 text-center font-medium text-xl">2</div>
-					<input 
-					oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-					bind:value={postcode} use:validators={[minLength(5)]} id="postal" maxlength="5" name="postal" type="number" placeholder="ton code postal " class=" pl-2 text-lg w-9/12 rounded-r-lg h-10 border text-black"/>
-				</div>
-				<div class="text-xs text-center m-auto w-12/12 text-gray-300 tracking-widest -mt-3">Pour trouver les femmes les plus proches de toi</div>
-			<Hint for="postal" on="minLength" let:value class="rounded text-sm text-center border-[#ef476f] border text-[#ef476f] p-1 w-[90%] m-auto mt-2">
-				
-				Merci de renseigner un code postal valide. ( ex: 75000 )
-                
-			  </Hint> -->
-
-
-			 
-			  
-					
-			
-				
-
-
-	</form>
-					<button on:click={submit} 
-					disabled={!$form.valid} 
-							class="cursor-pointer my-6  border-b-4  text-white text-lg font-medium py-3 w-[90%] m-auto flex items-center justify-center rounded-3xl  space-x-4"
-					>
-					{#if load}
-					<svg  class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-						<circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
-						<path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-					  </svg>
-					  {/if}
-					COMMENCE À BAISER !</button>
-
-					<div class=" py-2 text-sm text-center m-auto w-12/12 text-black tracking-widest -mt-3">🚨 Entre un email qui fonctionne, et n'oublie pas de regarder les spams pour valider ton email</div>
-
-				</div>
-
-				
-
-				</div>
-			</div>
-		</div>
-	</div>
 </div>

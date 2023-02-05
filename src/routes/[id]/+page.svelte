@@ -398,7 +398,7 @@ firstname = ''
 			<img alt={prenom} src="/reviews/rev3.webp" />
 		</div>
 		<div class="text-center m-auto w-[85%] font-medium  text-white">
-			Ce ne sont pas des escortes, tu peux  contacter autant de filles que tu veux. 👌
+			Ce ne sont pas des escortes, tu peux contacter autant de filles que tu veux. 👌
 		</div>
 	</div>
 

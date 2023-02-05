@@ -239,7 +239,7 @@ firstname = ''
 
 <div class="relative lg:w-5/12 lg:m-auto bg-[#191919] py-2">
 
-	<img src="/icons/heart2.webp" alt="heart" class="absolute top-[130px] left-[25px] w-8 rotate-[30deg] opacity-60"/>
+	<!-- <img src="/icons/heart2.webp" alt="heart" class="absolute top-[130px] left-[25px] w-8 rotate-[30deg] opacity-60"/>
 	<img src="/icons/heart.webp" alt="heart" class="absolute top-[210px] left-[45px] w-7 opacity-40"/>
 	<img src="/icons/heart2.webp" alt="heart" class="absolute top-[280px] left-[25px] w-8 -rotate-45 opacity-40"/>
 
@@ -250,7 +250,7 @@ firstname = ''
 
 	<img src="/icons/heart.webp" alt="heart" class="absolute top-[30px] left-[15px] w-8 -rotate-[20deg] opacity-60"/>
 
-	<img src="/icons/heart.webp" alt="heart" class="absolute top-[170px] right-[55px] w-8 rotate-[20deg] opacity-60"/>
+	<img src="/icons/heart.webp" alt="heart" class="absolute top-[170px] right-[55px] w-8 rotate-[20deg] opacity-60"/> -->
 
 
 <h1 class="text-center font-bold uppercase text-[#191919]  text-sm">{prenom}</h1>

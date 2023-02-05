@@ -289,13 +289,19 @@ firstname = ''
 	<a href="/" class="cursor-default"><img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/></a>
 	</div>
 
-	<div id="decsnap"
-		class="cursor-pointer   bg-gradient-to-r  from-[#2bbc69] to-[#2bbc69] border-b-4 border-[#229350] text-white text-lg font-medium py-3 shake w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-2"
-	>
-		
-            <img id="decsnap" src="/icons/18.webp" alt={prenom} class="w-12 -mt-1"/>
-            <div id="decsnap" class="">INSCRIS-TOI ET BAISE-MOI</div>
-	</div>
+	<div class="flex space-x-1 justify-center pt-4">
+		<img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/>
+		<img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/>
+		<a href="/" class="cursor-default"><img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/></a>
+		</div>
+	
+		<div id="decsnap"
+	class="cursor-pointer   bg-gradient-to-r  from-[#2bbc69] to-[#2bbc69] border-b-4 border-[#229350] text-white text-lg font-medium py-4 shake w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-2"
+>
+	
+		<img id="decsnap" src="/icons/chat.webp" alt={prenom} class="w-10 -mt-1"/>
+		<div id="decsnap" class="">ME CONTACTER MAINTENANT</div>
+</div>
 
     <div class="w-[90%] bg-white m-auto rounded-[50px] shadow-xl my-4 border-4 border-[#9081F6]">
 		<img alt={prenom} src={`/pp.webp`} class="rounded-[50px] border-4 border-white" />
@@ -312,9 +318,7 @@ firstname = ''
 		</p>
 	</div>
 
-	<div class="w-[90%] bg-white m-auto rounded-[50px] shadow-xl my-4 border-4 border-[#9081F6]">
-		<img alt={prenom} src={`/p1.webp`} class="rounded-[50px] border-4 border-white" />
-	</div>
+	
     <div class="  w-[90%] m-auto my-4  bg-white rounded-3xl p-3.5">
         <h3 class="font-semibold text-center uppercase">PROFIL DE {prenom}</h3>
 
@@ -349,18 +353,20 @@ firstname = ''
 			Je suis aussi sur Tinder et plusieurs autres sites, mais au final <b>je me fais harceler par des Ksos et des faux profils</b> qui me font perdre beaucoup de temps</div>
 
 
-    <div class="flex space-x-1 justify-center pt-4">
-        <img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/>
-        <img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/>
-        <a href="/" class="cursor-default"><img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/></a>
-        </div>
+   
     
-        <div id="decsnap"
-		class="cursor-pointer   bg-gradient-to-r  from-[#2bbc69] to-[#2bbc69] border-b-4 border-[#229350] text-white text-lg font-medium py-3 shake w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-2"
+		<div class="flex space-x-1 justify-center pt-4">
+            <img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/>
+            <img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/>
+            <a href="/" class="cursor-default"><img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/></a>
+            </div>
+        
+            <div id="decsnap"
+		class="cursor-pointer   bg-gradient-to-r  from-[#2bbc69] to-[#2bbc69] border-b-4 border-[#229350] text-white text-lg font-medium py-4 shake w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-2"
 	>
 		
-            <img id="decsnap" src="/icons/18.webp" alt={prenom} class="w-12 -mt-1"/>
-            <div id="decsnap" class="">INSCRIS-TOI ET BAISE-MOI</div>
+            <img id="decsnap" src="/icons/chat.webp" alt={prenom} class="w-10 -mt-1"/>
+            <div id="decsnap" class="">ME CONTACTER MAINTENANT</div>
 	</div>
 	
 
@@ -414,19 +420,21 @@ firstname = ''
 	</div>
 
 	<footer class="">
-		<div class="flex space-x-1 justify-center pt-4">
-            <img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/>
-            <img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/>
-            <a href="/" class="cursor-default"><img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/></a>
-            </div>
-        
-            <div id="decsnap"
-		class="cursor-pointer   bg-gradient-to-r  from-[#2bbc69] to-[#2bbc69] border-b-4 border-[#229350] text-white text-lg font-medium py-3 shake w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-2"
-	>
 		
-            <img id="decsnap" src="/icons/18.webp" alt={prenom} class="w-12 -mt-1"/>
-            <div id="decsnap" class="">INSCRIS-TOI ET BAISE-MOI</div>
-	</div>
+        
+            <div class="flex space-x-1 justify-center pt-4">
+				<img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/>
+				<img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/>
+				<a href="/" class="cursor-default"><img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/></a>
+				</div>
+			
+				<div id="decsnap"
+			class="cursor-pointer   bg-gradient-to-r  from-[#2bbc69] to-[#2bbc69] border-b-4 border-[#229350] text-white text-lg font-medium py-4 shake w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-2"
+		>
+			
+				<img id="decsnap" src="/icons/chat.webp" alt={prenom} class="w-10 -mt-1"/>
+				<div id="decsnap" class="">ME CONTACTER MAINTENANT</div>
+		</div>
         
 	</footer>
 

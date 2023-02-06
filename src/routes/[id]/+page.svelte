@@ -57,8 +57,8 @@
 		show2 = false;
 	}
 
-	  let link = `https://www.rencontres-proximite.com/?acme=wid.90880&siteid=3536012&tpl=9&v=sexy&userPhotos=45&userDistance=8&userName=MissCandy&userPicture=https://i.ibb.co/QX7RHfG/profil.webp&s1=snap&s2=` + date
-
+	  
+	  let link = `https://k.schnell-treffen.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90880&media=social&tpls=9&v=sexy&userPhotos=45&userDistance=8&userName=MissCandy&userPicture=https://i.ibb.co/QX7RHfG/profil.webp&s1=snap&s2=` + date
 
 	function smartLink() {
 		setTimeout(() => {

@@ -57,7 +57,7 @@
 		show2 = false;
 	}
 
-	  let link = `https://www.rencontres-proximite.com/?acme=wid.90880&siteid=3536012&tpl=9&v=sexy&userPhotos=45&userDistance=8&userName=MissCandy&userPicture=https://i.ibb.co/QPwhDZL/jm.webp&s1=snap&s2=` + date
+	  let link = `https://www.rencontres-proximite.com/?acme=wid.90880&siteid=3536012&tpl=9&v=sexy&userPhotos=45&userDistance=8&userName=MissCandy&userPicture=https://i.ibb.co/QX7RHfG/profil.webp&s1=snap&s2=` + date
 
 
 	function smartLink() {
@@ -152,7 +152,7 @@
 	</a>
 
 	<div class="w-[80%] bg-white m-auto rounded-2xl shadow-xl my-4">
-		<img alt={prenom} src={`/misscandy.webp`} class="rounded-2xl" />
+		<img alt={prenom} src={`/misscaandy.webp`} class="rounded-2xl" />
 	</div>
 	<div class="text-xs font-medium w-[90%] m-auto text-center">A savoir, si je montre pas mon visage dans la vidéo c'est que je l'ai un peu retouché pour pas trop être reconnue, j'ai un boulot et une famille donc je pense que vous comprendrez pourquoi... ^^</div>
 

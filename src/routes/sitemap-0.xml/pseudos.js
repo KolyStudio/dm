@@ -10,7 +10,14 @@ const pseudos = [
     'marinelle098',
     'oceanebaby26',
     'melissabella30',
-    'louisette079'
+    'louisette079',
+    'lisounelle02',
+    'lisounelle03',
+    'lisounelle04',
+    'lisounelle05',
+    'lisounelle07',
+    'lisounelle08',
+    'lisounelle10'
    ]
 
 export default pseudos;

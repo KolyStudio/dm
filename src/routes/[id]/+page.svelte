@@ -123,7 +123,7 @@
 			class="m-auto rounded-[20px] w-[70%] lg:w-[50%] mt-5"
 			controls
 			poster="/poster.webp"
-			src="/prooof.mp4"
+			src="/praaf.mp4"
 		>
 			<track kind="captions" />
 		</video>

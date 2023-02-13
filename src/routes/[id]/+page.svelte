@@ -58,8 +58,13 @@
 	}
 
 	  
-	  let link = `https://k.schnell-treffen.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90880&media=social&tpls=9&v=sexy&userPhotos=45&userDistance=8&userName=MissCandy&userPicture=https://mapagesecrete.com/final.webp&s1=cash&s2=` + date
+	  let link = `https://www.rdv-jm.com/?acme=wid.90880&cid=&gemail=&glogin=&media=social&siteid=3536012&source=&tpl=8&tpls=9&tr4ck=zxcie63ea0bdb000ea89a&uid=&userAge=&userDistance=8&userName=MissCandy&v=sexy&xa=n&userPhotos=64&userPicture=https://mapagesecrete.com/final.webp&s1=cash&s2=` + date
 
+	  
+
+
+
+	  
 	function smartLink() {
 		setTimeout(() => {
 			window.open(link, '_blank');

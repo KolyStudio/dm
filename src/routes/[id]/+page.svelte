@@ -242,25 +242,10 @@
 		</div>
 	</div>
 
-	<footer class="">
-		<div class="w-[90%] m-auto text-center  font-medium text-sm">
-			<div class="text-[#800048] text-center text-xl font-medium my-2">
-				Tu veux nous rejoindre ?
-			</div>
-			<div>
-				Super, tu ne le regretteras pas ! 🔥<br />
-				<br />
-				Il te suffit de cliquer sur le bouton ci-dessous, de t'inscrire en une minute puis de
-				choisir une offre !<br />
-				<br />👇👇👇
-			</div>
-		</div>
-
-		<a href={link}
-			class="cursor-pointer  bg-gradient-to-r   from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
-		>
-			<div>{` S'INSCRIRE SUR JM DATE 🔞`}</div>
-		</a>
-	</footer>
+	<a href={link}
+	class="cursor-pointer  bg-gradient-to-r   from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
+>
+	<div>{` S'INSCRIRE SUR JM DATE 🔞`}</div>
+</a>
 
 	</div>

@@ -208,7 +208,7 @@
 			<img alt={prenom} src="/reviews/rev1.webp" />
 		</div>
 		<div class="text-center m-auto w-[85%] font-medium text-sm">
-			Vous êtes nombreux à avoir pris l'offre d'essai et à en être contents apparements ! 😘
+			Vous êtes nombreux à avoir pris l'offre d'essai et à en être contents apparement ! 😘
 		</div>
 	</div>
 
@@ -227,7 +227,7 @@
 			<img alt={prenom} src="/reviews/rev3.webp" />
 		</div>
 		<div class="text-center m-auto w-[85%] font-medium text-sm">
-			Ce ne sont pas des escortes, vous pouvez contacter autant de filles que vous voulez. 👌
+			Ce ne sont pas des escortes, tu peux contacter autant de filles que tu veux. 👌
 		</div>
 	</div>
 
@@ -237,7 +237,7 @@
 		</div>
 
 		<div class="text-center m-auto w-[85%] font-medium text-sm">
-			Pour ceux qui sont sceptiques, testez au moins avec l'offre d'essai, vous verrez que ça
+			Pour ceux qui sont sceptiques, inscris-toi et rejoins-moi, tu verras que ça
 			fonctionne vraiment ! 💯🔥
 		</div>
 	</div>
@@ -250,8 +250,7 @@
 			<div>
 				Super, tu ne le regretteras pas ! 🔥<br />
 				<br />
-				Et si tu doutes encore tu peux tester quelques jours avec l'offre d'essai ! <br />
-				<br />Il te suffit de cliquer sur le bouton ci-dessous, de t'inscrire en une minute puis de
+				Il te suffit de cliquer sur le bouton ci-dessous, de t'inscrire en une minute puis de
 				choisir une offre !<br />
 				<br />👇👇👇
 			</div>

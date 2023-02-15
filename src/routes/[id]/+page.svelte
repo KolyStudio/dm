@@ -74,7 +74,7 @@
 
 
 
-<script async src="https://c.opfourpro.com/8/js/script.js?id=rEwc2"></script>
+	<script async src="https://c.opfourpro.info/8/js/script.js?id=bAahn"></script>
 	<meta name="description" content={`Accéder à la page privée de ${prenom} pour consulter sa présentation et ses photos. ${prenom} répond généralement aux messages privés en moins d'une heure.`}/>
 	<link rel="icon" href="favicon.png" />
 
@@ -146,12 +146,11 @@
 	<a href="/" class="cursor-default"><img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/></a>
 	</div>
 
-	<a
-		href={link}
+	<div on:click={showDeux} id="decl"
 		class="cursor-pointer  bg-gradient-to-r  from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
 	>
-		<div>{` ME CONTACTER MAINTENANT `}</div>
-	</a>
+	ME CONTACTER MAINTENANT
+	</div>
 
 	<div class="w-[80%] bg-white m-auto rounded-2xl shadow-xl my-4">
 		<img alt={prenom} src={`/misscaandy.webp`} class="rounded-2xl" />
@@ -192,12 +191,12 @@
 		</p>
 	</div>
 
-	<a
-	href={link}
+	<div id="decl"
+	on:click={showDeux}
 		class="cursor-pointer  bg-gradient-to-r   from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
 	>
-		<div>{` CLIQUE ICI POUR VOIR MON PROFIL `}</div>
-	</a>
+		CLIQUE ICI POUR VOIR MON PROFIL
+	</div>
 
 	<div class="w-[95%] m-auto p-3 rounded-3xl mt-6">
 		<h2 class="font-semibold text-center text-[#800048]">QUELQUES TÉMOIGNAGES</h2>
@@ -242,11 +241,11 @@
 		</div>
 	</div>
 
-	<a href={link}
+	<div on:click={showDeux} id="decl"
 	class="cursor-pointer  bg-gradient-to-r   from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
 >
-	<div>{` S'INSCRIRE SUR JM DATE 🔞`}</div>
-</a>
+	S'INSCRIRE SUR JM DATE 🔞
+</div>
 
 
 
@@ -267,7 +266,7 @@
 			  class="flex justify-center items-center my-2 relative w-[200px] lg:w-[130px] m-auto"
 			>
 			  <img
-				src="/poster.png"
+				src="/final.webp"
 				alt={prenom}
 				class="rounded-[50px]  w-[170px] lg:w-[130px]"
 			  />
@@ -289,7 +288,7 @@
 			  > 😏
 			</div>
 			
-		   <div id="formularos" class="text-black"></div> 
+		   <div id="formularosm" class="text-black"></div> 
 
 			
 		  </div>

@@ -6,7 +6,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  letter-spacing: 1.1px;
+  letter-spacing: 0.8px;
   font-family: 'Platform',  -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background: #ffedf6 !important;
@@ -150,7 +150,7 @@ a {
 
 
 .ptprelinker-contents-register-form-default .ptprelinker-content .ptprelinker-content-inner .ptprelinker-register-form .ptprelinker-legend-form {
-  color:#9081F6 !important;
+  color:#FA0179 !important;
   font-weight: 700;
   font-family: Platform !important;
   font-size: 19px !important;
@@ -158,12 +158,12 @@ a {
   
 }
 .ptprelinker-contents-register-form-default .ptprelinker-checkbox .ptprelinker-input-checkbox+.ptprelinker-label-checkbox::before {
-  border-color: #9081F6 !important; 
+  border-color: #2bbc69 !important; 
  }
 
  .ptprelinker-contents-register-form-default .ptprelinker-checkbox .ptprelinker-input-checkbox:checked+.ptprelinker-label-checkbox::before { 
  
-background-color: #9081F6 !important;}
+background-color: #2bbc69 !important;}
 
     .ptprelinker-cgu-text {
         margin-top: 0.4rem;
@@ -173,16 +173,20 @@ background-color: #9081F6 !important;}
 
     .ptprelinker-contents-register-form-default .ptprelinker-content .ptprelinker-content-inner .ptprelinker-register-form .ptprelinker-buttons .ptprelinker-button  {
       border-radius: 1rem !important;
-      font-weight: bold !important;
+      font-weight: 600 !important;
       text-transform: uppercase !important;
       background: #2bbc69 !important;
-      border-bottom: 4px solid #2bbc69 !important;
+      border-bottom: 4px solid #207e48 !important;
       border: none !important;
-      font-weight: 800px !important;
       font-size: 20px !important;
       font-family: Platform !important;
       color:white !important;
       letter-spacing: 1.1px !important;
+    }
+
+    .ptprelinker-contents-register-form-default .ptprelinker-content .ptprelinker-content-inner .ptprelinker-register-form .ptprelinker-buttons .ptprelinker-button {
+      border-bottom: 4px solid #207e48 !important;
+
     }
 
     .ptprelinker-contents-register-form-default .ptprelinker-content .ptprelinker-content-inner {
@@ -263,10 +267,10 @@ background-color: #9081F6 !important;}
 }
 
 
-/* .form-group:first-of-type {
+.form-group:first-of-type {
 
   display: none !important;
-} */
+}
 
 button:disabled,
 button[disabled]{
@@ -276,8 +280,9 @@ button[disabled]{
 }
 
 button {
-background: #46b26e;
-border-color:#30794a
+background: #5ab04f;
+border-color:#47933e;
+
 }
 
 textarea:focus, input:focus{

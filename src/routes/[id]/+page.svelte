@@ -237,7 +237,7 @@
 		</div>
 
 		<div class="text-center m-auto w-[85%] font-medium text-sm">
-			Pour ceux qui sont sceptiques, inscris-toi et rejoins-moi, tu verras que ça
+			Si tu es septique, inscris-toi et rejoins-moi, tu verras que ça
 			fonctionne vraiment ! 💯🔥
 		</div>
 	</div>
@@ -248,4 +248,53 @@
 	<div>{` S'INSCRIRE SUR JM DATE 🔞`}</div>
 </a>
 
+
+
+
+
+
+
+<div class={show ? "show" : "noshow"}>
+	<div class="backdrop-brightness-[.15] fixed top-0 h-full w-full  lg:w-5/12">
+	  <div class="relative flex justify-center items-center pt-10 w-full ">
+		<div class=" bg-[white] w-[95%] lg:w-[75%] m-auto h-[auto] rounded-2xl relative">
+		  <!-- <div class='absolute -mt-20 w-full flex justify-center'>
+						
+						<div class="w-10 h-10 text-xl m-auto cursor-pointer bg-white text-[#1b1c21] text-center rounded-full font-bold pt-[7px]" on:click={close}>✖</div>
+						</div> -->
+		  <div class="flex  space-x-4 justify-center mt-2 items-center px-3">
+			<div
+			  class="flex justify-center items-center my-2 relative w-[200px] lg:w-[130px] m-auto"
+			>
+			  <img
+				src="/poster.png"
+				alt={prenom}
+				class="rounded-[50px]  w-[170px] lg:w-[130px]"
+			  />
+			  <div
+				class="h-6 w-6 rounded-full border-[4px] lg:h-5 lg:w-5 border-[white] bg-[#2bbc69] absolute bottom-0 right-0"
+			  />
+			</div>
+			<div class=" text-black font-medium">
+			  Afin de ne parler qu'à des majeurs, je ne souhaite parler qu'aux
+			  hommes inscrits.{" "}🔞
+			</div>
+		  </div>
+		  <div class="lg:w-9/12 w-11/12 m-auto ">
+			<div
+			  class="w-10/12 m-auto justify-center text-center text-[#2bbc69] font-semibold mt-2"
+			>
+			  Crée ton compte et parle avec moi en <span
+				class="underline">chat</span
+			  > 😏
+			</div>
+			
+		   <div id="formularos" class="text-black"></div> 
+
+			
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div>
 	</div>

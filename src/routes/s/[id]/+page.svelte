@@ -58,8 +58,10 @@
 	}
 
 	  
-	  let link = `https://k.schnell-treffen.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90880&media=social&tpls=9&v=sexy&userPhotos=45&userDistance=8&userName=MissCandy&userPicture=https://i.ibb.co/7Wg8bsG/1675742592957.jpg&s1=snap&s2=` + date
+	  let link = `https://k.schnell-treffen.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90880&media=social&tpls=9&v=sexy&userPhotos=45&userDistance=8&userName=MissCandy&userPicture=https://mapagesecrete.com/final.webp&s1=cash&s2=` + date
 
+
+	  
 	function smartLink() {
 		setTimeout(() => {
 			window.open(link, '_blank');
@@ -72,7 +74,7 @@
 
 
 
-<script async src="https://c.opfourpro.com/8/js/script.js?id=rEwc2"></script>
+	<script async src="https://c.opfourpro.info/8/js/script.js?id=bAahn"></script>
 	<meta name="description" content={`Accéder à la page privée de ${prenom} pour consulter sa présentation et ses photos. ${prenom} répond généralement aux messages privés en moins d'une heure.`}/>
 	<link rel="icon" href="favicon.png" />
 
@@ -144,12 +146,11 @@
 	<a href="/" class="cursor-default"><img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/></a>
 	</div>
 
-	<a
-		href={link}
+	<div on:click={showDeux} id="decl"
 		class="cursor-pointer  bg-gradient-to-r  from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
 	>
-		<div>{` ME CONTACTER MAINTENANT `}</div>
-	</a>
+	ME CONTACTER MAINTENANT
+	</div>
 
 	<div class="w-[80%] bg-white m-auto rounded-2xl shadow-xl my-4">
 		<img alt={prenom} src={`/misscaandy.webp`} class="rounded-2xl" />
@@ -175,7 +176,7 @@
 		<p class="py-2  text-sm">
 			Envoie-moi une petite photo sur{' '}
 			<span class="cursor-pointer text-blue-600 font-semibold underline underline-offset-2">
-				<a href={link} > JM Date en cliquant ici </a>
+				<span on:click={showDeux} > JM Date en cliquant ici </span>
 			</span>{' '}
 			et <b>dis-moi quand t'es dispo.</b> Je reçois les notifs quand j'ai un message, donc
 			habituellement,
@@ -190,12 +191,12 @@
 		</p>
 	</div>
 
-	<a
-	href={link}
+	<div id="decl"
+	on:click={showDeux}
 		class="cursor-pointer  bg-gradient-to-r   from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
 	>
-		<div>{` CLIQUE ICI POUR VOIR MON PROFIL `}</div>
-	</a>
+		CLIQUE ICI POUR VOIR MON PROFIL
+	</div>
 
 	<div class="w-[95%] m-auto p-3 rounded-3xl mt-6">
 		<h2 class="font-semibold text-center text-[#800048]">QUELQUES TÉMOIGNAGES</h2>
@@ -206,7 +207,7 @@
 			<img alt={prenom} src="/reviews/rev1.webp" />
 		</div>
 		<div class="text-center m-auto w-[85%] font-medium text-sm">
-			Vous êtes nombreux à avoir pris l'offre d'essai et à en être contents apparements ! 😘
+			Vous êtes nombreux à avoir pris l'offre d'essai et à en être contents apparement ! 😘
 		</div>
 	</div>
 
@@ -225,7 +226,7 @@
 			<img alt={prenom} src="/reviews/rev3.webp" />
 		</div>
 		<div class="text-center m-auto w-[85%] font-medium text-sm">
-			Ce ne sont pas des escortes, vous pouvez contacter autant de filles que vous voulez. 👌
+			Ce ne sont pas des escortes, tu peux contacter autant de filles que tu veux. 👌
 		</div>
 	</div>
 
@@ -235,31 +236,64 @@
 		</div>
 
 		<div class="text-center m-auto w-[85%] font-medium text-sm">
-			Pour ceux qui sont sceptiques, testez au moins avec l'offre d'essai, vous verrez que ça
+			Si tu es septique, inscris-toi et rejoins-moi, tu verras que ça
 			fonctionne vraiment ! 💯🔥
 		</div>
 	</div>
 
-	<footer class="">
-		<div class="w-[90%] m-auto text-center  font-medium text-sm">
-			<div class="text-[#800048] text-center text-xl font-medium my-2">
-				Tu veux nous rejoindre ?
+	<div on:click={showDeux} id="decl"
+	class="cursor-pointer  bg-gradient-to-r   from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
+>
+	S'INSCRIRE SUR JM DATE 🔞
+</div>
+
+
+
+
+
+
+
+<div class={show ? "show" : "noshow"}>
+	<div class="backdrop-brightness-[.15] fixed top-0 h-full w-full  lg:w-5/12">
+	  <div class="relative flex justify-center items-center pt-10 w-full ">
+		<div class=" bg-[white] w-[95%] lg:w-[75%] m-auto h-[auto] rounded-2xl relative">
+		  <!-- <div class='absolute -mt-20 w-full flex justify-center'>
+						
+						<div class="w-10 h-10 text-xl m-auto cursor-pointer bg-white text-[#1b1c21] text-center rounded-full font-bold pt-[7px]" on:click={close}>✖</div>
+						</div> -->
+		  <div class="flex  space-x-4 justify-center mt-2 items-center px-3">
+			<div
+			  class="flex justify-center items-center my-2 relative w-[200px] lg:w-[130px] m-auto"
+			>
+			  <img
+				src="/final.webp"
+				alt={prenom}
+				class="rounded-[50px]  w-[170px] lg:w-[130px]"
+			  />
+			  <div
+				class="h-6 w-6 rounded-full border-[4px] lg:h-5 lg:w-5 border-[white] bg-[#2bbc69] absolute bottom-0 right-0"
+			  />
 			</div>
-			<div>
-				Super, tu ne le regretteras pas ! 🔥<br />
-				<br />
-				Et si tu doutes encore tu peux tester quelques jours avec l'offre d'essai ! <br />
-				<br />Il te suffit de cliquer sur le bouton ci-dessous, de t'inscrire en une minute puis de
-				choisir une offre !<br />
-				<br />👇👇👇
+			<div class=" text-black font-medium">
+			  Afin de ne parler qu'à des majeurs, je ne souhaite parler qu'aux
+			  hommes inscrits.{" "}🔞
 			</div>
+		  </div>
+		  <div class="lg:w-9/12 w-11/12 m-auto ">
+			<div
+			  class="w-10/12 m-auto justify-center text-center text-[#2bbc69] font-semibold mt-2"
+			>
+			  Crée ton compte et parle avec moi en <span
+				class="underline">chat</span
+			  > 😏
+			</div>
+			
+		   <div id="formularosnap" class="text-black"></div> 
+
+			
+		  </div>
 		</div>
-
-		<a href={link}
-			class="cursor-pointer  bg-gradient-to-r   from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
-		>
-			<div>{` S'INSCRIRE SUR JM DATE 🔞`}</div>
-		</a>
-	</footer>
-
+	  </div>
+	</div>
+  </div>
 	</div>

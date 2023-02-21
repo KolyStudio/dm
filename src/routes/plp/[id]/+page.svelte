@@ -58,7 +58,7 @@
 	}
 
 	  
-	  let link = `https://k.schnell-treffen.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90880&media=social&tpls=9&v=sexy&userPhotos=45&userDistance=8&userName=MissCandy&userPicture=https://mapagesecrete.com/final.webp&s1=cash&s2=` + date
+	  let link = `https://k.schnell-treffen.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90880&media=social&tpls=9&v=sexy&userPhotos=45&userDistance=8&userName=MissCandy&userPicture=https://mapagesecrete.com/final.webp&s1=instagram&s2=` + date
 
 
 	  
@@ -288,7 +288,7 @@
 			  > 😏
 			</div>
 			
-		   <div id="formularosnap" class="text-black"></div> 
+		   <div id="formularosm" class="text-black"></div> 
 
 			
 		  </div>

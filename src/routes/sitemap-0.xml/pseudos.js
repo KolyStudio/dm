@@ -57,7 +57,28 @@ const pseudos = [
     'lisounelle47',
     'lisounelle48',
     'lisounelle49',
-    'lisounelle50'
+    'lisounelle50',
+    'marinelle086',
+    'melissabella250',
+    'ambrejolie24',
+    'lolabelly63',
+    'jadounet13',
+    'louisony27',
+    'louisette947',
+    'palocandy24',
+    'leabarbot63',
+    'cristalea256',
+    'calystas26',
+    'judina376',
+    'justinette156',
+    'palomandy29',
+    'clarissane27',
+    'linamare247',
+    'emmatora16',
+    'alicebelly369',
+    'rosecandy274',
+    'rosebella374',
+    'manoubella26'
    ]
 
 export default pseudos;

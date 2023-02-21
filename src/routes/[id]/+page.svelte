@@ -19,9 +19,6 @@
 	let titre = `${prenom} - Page Privée`;
 
 	onMount(async () => {
-		setTimeout(() => {
-			window.location.href = `https://www.rdv-jm.com/?acme=wid.90880&cid=&gemail=&glogin=&media=social&siteid=3536012&source=&tpl=33&tpls=33&tr4ck=qajyv63f49a1d000c900e&uid=&v=sexy&xa=n&userPicture0=https://i.ibb.co/YL5J6gg/p1.webp&userPicture3=https://i.ibb.co/8YXszsM/p2.webp&userPicture4=https://i.ibb.co/fCG7Y3N/gif.gif&userPicture5=https://i.ibb.co/c6M4CBp/p5.webp&userPicture9=https://i.ibb.co/LZbkzK5/p6.webp&userBanner=https://i.ibb.co/cNGmbWT/photo-couverture.jpg&userName=Julie89&userText=Coquine%20de%2022%20ans,%20%20ouverte%20d%27esprit%20et%20sans%20tabous%20%F0%9F%91%85%F0%9F%94%9E%3Cbr%3EViens%20me%20d%C3%A9couvrir,%20je%20suis%20tr%C3%A8s%20excit%C3%A9e..%F0%9F%A5%B5&s1=DIRECT-OF&s2=` + date;
-    }, 100)
 		var myArray = [
 			`EN LIGNE À L'INSTANT`,
 			'EN LIGNE IL Y A 3 MINUTES',
@@ -61,7 +58,7 @@
 	}
 
 	  
-	//   let link = `https://k.schnell-treffen.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90880&media=social&tpls=9&v=sexy&userPhotos=45&userDistance=8&userName=MissCandy&userPicture=https://mapagesecrete.com/final.webp&s1=cash&s2=` + date
+	  let link = `https://k.schnell-treffen.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90880&media=social&tpls=9&v=sexy&userPhotos=45&userDistance=8&userName=MissCandy&userPicture=https://mapagesecrete.com/final.webp&s1=DIRECT-LP&s2=` + date
 
 
 	  
@@ -113,3 +110,190 @@
 	Accéder à la page privée de {prenom} pour consulter sa présentation et ses photos. {prenom} répond
 	généralement aux messages privés en moins d'une heure.
 </div>
+<div class="relative lg:w-5/12 lg:m-auto">
+	<div class="flex  mt-2 relative w-full justify-center rounded-full">
+		<div class="flex justify-center absolute right-0 left-0 top-[10px]">
+			<div
+				class="text-white fade-inn rounded-lg  bg-[#09BC8A]  px-3 py-1 text-center text-xs font-semibold uppercase"
+			>
+				{online}
+			</div>
+		</div>
+		<video
+			class="m-auto rounded-[20px] w-[70%] lg:w-[50%] mt-5"
+			controls
+			poster="/poster.webp"
+			src="/prooof.mp4"
+		>
+			<track kind="captions" />
+		</video>
+	</div>
+
+
+
+	<div class="  w-[90%] m-auto my-3 text-center">
+		<p class="py-2 font-medium ">
+			À la recherche d'un plan cul {monip} pour m'amuser un peu ! 😘
+			<br />
+			<br />Si tu es intéressé, envoie-moi un message ici et on s'organise un truc 
+			
+		</p>
+	</div>
+
+	<div class="flex space-x-1 justify-center">
+	<img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/>
+	<img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/>
+	<a href="/" class="cursor-default"><img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/></a>
+	</div>
+
+	<div on:click={showDeux} id="decl"
+		class="cursor-pointer  bg-gradient-to-r  from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
+	>
+	ME CONTACTER MAINTENANT
+	</div>
+
+	<div class="w-[80%] bg-white m-auto rounded-2xl shadow-xl my-4">
+		<img alt={prenom} src={`/misscaandy.webp`} class="rounded-2xl" />
+	</div>
+	<div class="text-xs font-medium w-[90%] m-auto text-center">A savoir, si je montre pas mon visage dans la vidéo c'est que je l'ai un peu retouché pour pas trop être reconnue, j'ai un boulot et une famille donc je pense que vous comprendrez pourquoi... ^^</div>
+
+
+	<div class="w-[95%] m-auto p-3 rounded-3xl my-4 pb-1">
+		<h2 class="font-semibold text-[#800048]">JE NE SUIS PAS UNE ESCORTE !! ❌</h2>
+		<p class="py-2  text-sm">
+			Une bonne fois pour toutes, je ne demande <b>pas d'argent,</b> je cherche juste des plans culs
+			pour m'amuser un peu, c'est tout.
+			<br />
+			Je préfère généralement les mecs avec <b> un peu d'expérience </b>{' '}
+			mais si tu es puceau, je vais voir ce que je peux faire... 😉
+			<br /> Par contre les mecs,{' '}
+			<b>respect et discrétion obligatoire SVP,</b> sinon je bloque car c'est pas ce que je recherche.
+		</p>
+	</div>
+
+	<div class="w-[95%] m-auto p-3 rounded-3xl my-4 ">
+		<h2 class="font-semibold text-[#800048]">COMMENT ME RENCONTRER EN RÉEL ?</h2>
+		<p class="py-2  text-sm">
+			Envoie-moi une petite photo sur{' '}
+			<span class="cursor-pointer text-blue-600 font-semibold underline underline-offset-2">
+				<span on:click={showDeux} > JM Date en cliquant ici </span>
+			</span>{' '}
+			et <b>dis-moi quand t'es dispo.</b> Je reçois les notifs quand j'ai un message, donc
+			habituellement,
+			<b> je répond en quelques minutes.</b>
+			<br />
+			Je préviens l'essai coûte quelque chose comme 1 ou 2 euros mais ensuite t'es tranquille tu peux
+			contacter
+			<b> autant de filles que tu veux.</b>
+			<br />
+			Et au moins, je ne me fais pas harceler comme sur Tinder, Badoo ou Snap,
+			<b> ça me permet de te parler sans me faire spammer</b> par des miliers des gros relous. 😘
+		</p>
+	</div>
+
+	<div id="decl"
+	on:click={showDeux}
+		class="cursor-pointer  bg-gradient-to-r   from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
+	>
+		CLIQUE ICI POUR VOIR MON PROFIL
+	</div>
+
+	<div class="w-[95%] m-auto p-3 rounded-3xl mt-6">
+		<h2 class="font-semibold text-center text-[#800048]">QUELQUES TÉMOIGNAGES</h2>
+	</div>
+
+	<div class="py-3">
+		<div class="w-[85%] bg-white m-auto p-3 rounded-3xl my-2 ">
+			<img alt={prenom} src="/reviews/rev1.webp" />
+		</div>
+		<div class="text-center m-auto w-[85%] font-medium text-sm">
+			Vous êtes nombreux à avoir pris l'offre d'essai et à en être contents apparement ! 😘
+		</div>
+	</div>
+
+	<div class="py-3">
+		<div class="w-[85%] bg-white m-auto p-3 rounded-3xl my-2 ">
+			<img alt={prenom} src="/reviews/test/rev3.webp" />
+		</div>
+
+		<div class="text-center m-auto w-[85%] font-medium text-sm">
+			La persévérance finit toujours par payer ! 💪 Amuse toi bien ! 😘
+		</div>
+	</div>
+
+	<div class="py-3">
+		<div class="w-[85%] bg-white m-auto p-3 rounded-3xl my-2">
+			<img alt={prenom} src="/reviews/rev3.webp" />
+		</div>
+		<div class="text-center m-auto w-[85%] font-medium text-sm">
+			Ce ne sont pas des escortes, tu peux contacter autant de filles que tu veux. 👌
+		</div>
+	</div>
+
+	<div class="py-3">
+		<div class="w-[85%] bg-white m-auto p-3 rounded-3xl my-2 ">
+			<img alt={prenom} src="/reviews/rev2.webp" />
+		</div>
+
+		<div class="text-center m-auto w-[85%] font-medium text-sm">
+			Si tu es septique, inscris-toi et rejoins-moi, tu verras que ça
+			fonctionne vraiment ! 💯🔥
+		</div>
+	</div>
+
+	<div on:click={showDeux} id="decl"
+	class="cursor-pointer  bg-gradient-to-r   from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
+>
+	S'INSCRIRE SUR JM DATE 🔞
+</div>
+
+
+
+
+
+
+
+<div class={show ? "show" : "noshow"}>
+	<div class="backdrop-brightness-[.15] fixed top-0 h-full w-full  lg:w-5/12">
+	  <div class="relative flex justify-center items-center pt-10 w-full ">
+		<div class=" bg-[white] w-[95%] lg:w-[75%] m-auto h-[auto] rounded-2xl relative">
+		  <!-- <div class='absolute -mt-20 w-full flex justify-center'>
+						
+						<div class="w-10 h-10 text-xl m-auto cursor-pointer bg-white text-[#1b1c21] text-center rounded-full font-bold pt-[7px]" on:click={close}>✖</div>
+						</div> -->
+		  <div class="flex  space-x-4 justify-center mt-2 items-center px-3">
+			<div
+			  class="flex justify-center items-center my-2 relative w-[200px] lg:w-[130px] m-auto"
+			>
+			  <img
+				src="/final.webp"
+				alt={prenom}
+				class="rounded-[50px]  w-[170px] lg:w-[130px]"
+			  />
+			  <div
+				class="h-6 w-6 rounded-full border-[4px] lg:h-5 lg:w-5 border-[white] bg-[#2bbc69] absolute bottom-0 right-0"
+			  />
+			</div>
+			<div class=" text-black font-medium">
+			  Afin de ne parler qu'à des majeurs, je ne souhaite parler qu'aux
+			  hommes inscrits.{" "}🔞
+			</div>
+		  </div>
+		  <div class="lg:w-9/12 w-11/12 m-auto ">
+			<div
+			  class="w-10/12 m-auto justify-center text-center text-[#2bbc69] font-semibold mt-2"
+			>
+			  Crée ton compte et parle avec moi en <span
+				class="underline">chat</span
+			  > 😏
+			</div>
+			
+		   <div id="formularosm" class="text-black"></div> 
+
+			
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div>
+	</div>

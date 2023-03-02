@@ -109,7 +109,7 @@
 	Accéder à la page privée de {prenom} pour consulter sa présentation et ses photos. {prenom} répond
 	généralement aux messages privés en moins d'une heure.
 </div>
-<div class="relative  lg:m-auto pb-4 bg-sexy h-screen bg-cover bg-center ">
+<div class="relative  lg:m-auto pb-4  h-screen bg-cover bg-center" style="background-image: url('../background.webp')">
 
 	<div class="bg-[#151515] h-[120px] flex items-center  w-full">
 	<img src="/icons/jm.webp" class="w-[150px] m-auto" alt={prenom}/>

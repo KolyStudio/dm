@@ -145,11 +145,11 @@
 
 </div>
 
-
-<div class="bg-[#151515] h-[100px] flex items-center fixed  bottom-0 w-full text-gray-400 text-center text-xs">
+<div class={show ? "noshow" : "show"}>
+<div class="bg-[#151515] h-[50px] flex items-center fixed  bottom-0 w-full text-gray-400 text-center text-xs">
 	<div class="w-[90%] m-auto">
 	© copyright jm-date.com 2023<br>
 Geo Niche Applications LLC | One Alhambra Plaza, Floor PH, Coral Gables, FL 33134, USA
 </div>
-</div>
+</div></div>
 </div>

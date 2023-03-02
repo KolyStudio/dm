@@ -105,12 +105,13 @@
 
 </svelte:head>
 
+<div class="bg-[#ffedf6] pb-2">
 <h1 class="text-center font-bold uppercase text-[#ffedf6] text-lg">{prenom}</h1>
 <div class="hidden">
 	Accéder à la page privée de {prenom} pour consulter sa présentation et ses photos. {prenom} répond
 	généralement aux messages privés en moins d'une heure.
 </div>
-<div class="relative lg:w-5/12 lg:m-auto">
+<div class="relative lg:w-5/12 lg:m-auto ">
 	<div class="flex  mt-2 relative w-full justify-center rounded-full">
 		<div class="flex justify-center absolute right-0 left-0 top-[10px]">
 			<div
@@ -296,4 +297,4 @@
 	  </div>
 	</div>
   </div>
-	</div>
+	</div></div>

@@ -9,6 +9,7 @@ module.exports = {
       },
         backgroundImage: {
           'banner': "url('../banner.webp')",
+          'sexy': "url('../background.webp')"
         },
     },
   },

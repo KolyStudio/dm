@@ -174,7 +174,7 @@
 
 		Envoie-moi une petite photo sur JM Date et <b>dis-moi quand t'es dispo.</b> Je reçois les notifs quand j'ai un message donc habituellement, <b>je répond en quelques minutes.</b> 
 		<br><br> 
-		Je préviens l'inscription (essai) côute quelque chose comme 1 ou 2 euros mais ensuite t'es tranquille tu peux conacter gratuitement <b>autant de filles que tu veux.</b> 
+		Je préviens l'inscription (essai) coûte quelque chose comme 1 ou 2 euros mais ensuite t'es tranquille tu peux conacter gratuitement <b>autant de filles que tu veux.</b> 
 		<br><br>
 		Et au moins je ne me fais pas harceler comme sur <b> Tinder ou Snap, ça me permet de parler sans me faire spammer</b> par des milliers de gros relous. 😘
 	</div>

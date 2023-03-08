@@ -12,5 +12,12 @@
 	"test/[id]": [],
 	"test copy/[id]": [],
 	"test copy/invitation": [],
-	"invitation/[id]": []
+	"invitation/[id]": [],
+	"p/[id]": [],
+	"invitations/[id]": [],
+	"invitation copy/[id]": [],
+	"s copy/[id]": [],
+	"i/[id]": [],
+	"invitations copy/[id]": [],
+	"invitationi/[id]": []
 }

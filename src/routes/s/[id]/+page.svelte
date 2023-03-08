@@ -121,7 +121,7 @@
 		<div class="bg-[#68CF7E] h-7 w-7 absolute right-0 bottom-0 rounded-full border-4 border-[#151515]"></div>
 	</div>
 
-	<h1 class="text-center font-bold  text-[#ffedf6] text-2xl uppercase my-2">{prenom}</h1>
+	<h1 class="text-center font-bold  text-[#ffedf6] text-2xl uppercase my-2">{prenom}25</h1>
 
 	<div class="bg-[#E4F2E6] text-[#5CB76E] font-semibold w-[90px] m-auto text-center text-sm rounded-xl px-4 py-0.5 my-2">EN LIGNE</div>
 
@@ -142,14 +142,14 @@
 
 	</div>
 
-	<a href="/invitation/{prenom}" class=" mb-4 flex bg-[#68CF7E] border-b-4 border-[#489157] text-white w-[90%] m-auto shake rounded-3xl py-4 justify-center font-semibold items-center  space-x-4">
+	<a href="/invitations/{prenom}" class=" mb-4 flex bg-[#68CF7E] border-b-4 border-[#489157] text-white w-[90%] m-auto shake rounded-3xl py-4 justify-center font-semibold items-center  space-x-4">
 		<img src='/icons/chat.webp' alt={prenom} class="w-8"/>
 		<div>ENVOIE-MOI UN MESSAGE</div>
 	</a>
 
 
 	<div class="bg-[#ee107e] p-1 w-[90%] m-auto rounded-[40px]">
-		<img  class="border-[3px] border-white rounded-[40px]" src="/manon.webp" alt={prenom} />
+		<img  class="border-[3px] border-white rounded-[40px]" src="/cp.webp" alt={prenom} />
 	</div>
 
 	<div class=" m-auto w-[90%] bg-white rounded-3xl p-5 my-4">
@@ -172,7 +172,7 @@
 	<div class=" m-auto w-[90%] bg-white rounded-3xl p-5 my-4">
 		<h2 class="font-semibold text-center pb-2">COMMENT ME RENCONTRER EN RÉEL ?</h2>
 
-		Envoie-moi une petite photo sur JM Date et <b>dis-moi quand t'es dispo.</b> Je reçois les notifs quand j'ai un message donc habituellement, <b>je répond en quelques minutes.</b> 
+		Envoie-moi une petite photo sur Chaud Passion et <b>dis-moi quand t'es dispo.</b> Je reçois les notifs quand j'ai un message donc habituellement, <b>je répond en quelques minutes.</b> 
 		<br><br> 
 		Je préviens l'inscription (essai) coûte quelque chose comme 1 ou 2 euros mais ensuite t'es tranquille tu peux conacter gratuitement <b>autant de filles que tu veux.</b> 
 		<br><br>
@@ -187,7 +187,7 @@
 
 	</div>
 
-	<a href="/invitation/{prenom}" class="flex bg-[#68CF7E] border-b-4 border-[#489157] text-white w-[90%] m-auto shake rounded-3xl py-4 justify-center font-semibold items-center  space-x-4">
+	<a href="/invitations/{prenom}" class="flex bg-[#68CF7E] border-b-4 border-[#489157] text-white w-[90%] m-auto shake rounded-3xl py-4 justify-center font-semibold items-center  space-x-4">
 		<img src='/icons/chat.webp' alt={prenom} class="w-8"/>
 		<div>ENVOIE-MOI UN MESSAGE</div>
 	</a>
@@ -233,7 +233,7 @@
 
 	</div>
 
-	<a href="/invitation/{prenom}" class="flex bg-[#68CF7E] border-b-4 border-[#489157] text-white w-[90%] m-auto shake rounded-3xl py-4 justify-center font-semibold items-center  space-x-4">
+	<a href="/invitations/{prenom}" class="flex bg-[#68CF7E] border-b-4 border-[#489157] text-white w-[90%] m-auto shake rounded-3xl py-4 justify-center font-semibold items-center  space-x-4">
 		<img src='/icons/chat.webp' alt={prenom} class="w-8"/>
 		<div>ENVOIE-MOI UN MESSAGE</div>
 	</a>

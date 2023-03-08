@@ -142,7 +142,7 @@
 
 	</div>
 
-	<a href="/invitation/{prenom}" class=" mb-4 flex bg-[#68CF7E] border-b-4 border-[#489157] text-white w-[90%] m-auto shake rounded-3xl py-4 justify-center font-semibold items-center  space-x-4">
+	<a href="/invitationi/{prenom}" class=" mb-4 flex bg-[#68CF7E] border-b-4 border-[#489157] text-white w-[90%] m-auto shake rounded-3xl py-4 justify-center font-semibold items-center  space-x-4">
 		<img src='/icons/chat.webp' alt={prenom} class="w-8"/>
 		<div>ENVOIE-MOI UN MESSAGE</div>
 	</a>
@@ -187,7 +187,7 @@
 
 	</div>
 
-	<a href="/invitation/{prenom}" class="flex bg-[#68CF7E] border-b-4 border-[#489157] text-white w-[90%] m-auto shake rounded-3xl py-4 justify-center font-semibold items-center  space-x-4">
+	<a href="/invitationi/{prenom}" class="flex bg-[#68CF7E] border-b-4 border-[#489157] text-white w-[90%] m-auto shake rounded-3xl py-4 justify-center font-semibold items-center  space-x-4">
 		<img src='/icons/chat.webp' alt={prenom} class="w-8"/>
 		<div>ENVOIE-MOI UN MESSAGE</div>
 	</a>
@@ -233,7 +233,7 @@
 
 	</div>
 
-	<a href="/invitation/{prenom}" class="flex bg-[#68CF7E] border-b-4 border-[#489157] text-white w-[90%] m-auto shake rounded-3xl py-4 justify-center font-semibold items-center  space-x-4">
+	<a href="/invitationi/{prenom}" class="flex bg-[#68CF7E] border-b-4 border-[#489157] text-white w-[90%] m-auto shake rounded-3xl py-4 justify-center font-semibold items-center  space-x-4">
 		<img src='/icons/chat.webp' alt={prenom} class="w-8"/>
 		<div>ENVOIE-MOI UN MESSAGE</div>
 	</a>

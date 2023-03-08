@@ -123,7 +123,7 @@
 		<img src="/final.webp" alt="{prenom}" class="rounded-[50px] w-[130px] border-[3px] border-[#EE107E] -mt-[70px] right-[25%] left-[25%] absolute m-auto"/>
 
 		<div class={show ? "noshow" : "show"}>
-					<h2 class="pt-[80px] uppercase text-xl font-medium w-[70%] m-auto text-center"><span class="text-[#EE107E] font-semibold">{prenom}</span> t'as envoyé une invitation !</h2>
+					<h2 class="pt-[80px] uppercase text-xl font-medium w-[70%] m-auto text-center"><span class="text-[#EE107E] font-semibold">{prenom}25</span> t'as envoyé une invitation !</h2>
 
 	
 	<div class="flex justify-evenly my-4">
@@ -131,14 +131,14 @@
 	<div>📍 <span class="text-[#EE107E] font-medium">7</span> km</div>
 </div>
 
-	<div on:click={showDeux} id="declancheurdirect" class="bg-[#fa4e4e] rounded-2xl py-3 text-center w-[90%] m-auto my-2 font-semibold mb-2">ACCEPTER</div>
-	<div on:click={showDeux} id="declancheurdirect" class="bg-[#2bbc69] text-center py-3 rounded-2xl w-[90%] m-auto my-2 font-semibold">S'INSCRIRE</div>
+	<div on:click={showDeux} id="declancheurinstagram" class="bg-[#fa4e4e] rounded-2xl py-3 text-center w-[90%] m-auto my-2 font-semibold mb-2">ACCEPTER</div>
+	<div on:click={showDeux} id="declancheurinstagram" class="bg-[#2bbc69] text-center py-3 rounded-2xl w-[90%] m-auto my-2 font-semibold">S'INSCRIRE</div>
 
 </div>
 <div class={show ? "show" : "noshow"}>
 <h2 class="pt-[80px] uppercase text-xl font-medium w-[70%] m-auto text-center"><span class="text-[#EE107E] font-semibold">▶ INSCRIPTION RAPIDE ◀</span> </h2>
 </div>
-	<div id="formulairedirect" class="text-black"></div> 
+	<div id="formulaireinstagram" class="text-black"></div> 
 </div>
 
 

@@ -149,7 +149,7 @@
 
 
 	<div class="bg-[#ee107e] p-1 w-[90%] m-auto rounded-[40px]">
-		<img  class="border-[3px] border-white rounded-[40px]" src="/missbelly.webp" alt={prenom} />
+		<img  class="border-[3px] border-white rounded-[40px]" src="/misscandy.webp" alt={prenom} />
 	</div>
 
 	<div class=" m-auto w-[90%] bg-white rounded-3xl p-5 my-4">

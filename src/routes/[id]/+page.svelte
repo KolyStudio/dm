@@ -177,7 +177,7 @@
 		<p class="py-2  text-sm">
 			Envoie-moi une petite photo sur{' '}
 			<span class="cursor-pointer text-blue-600 font-semibold underline underline-offset-2">
-				<span on:click={showDeux} > JM Date en cliquant ici </span>
+				<a href={link}> JM Date en cliquant ici </a>
 			</span>{' '}
 			et <b>dis-moi quand t'es dispo.</b> Je reçois les notifs quand j'ai un message, donc
 			habituellement,

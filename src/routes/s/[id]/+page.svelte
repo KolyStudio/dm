@@ -58,8 +58,7 @@
 	}
 
 	  
-	let link = `https://k.schnell-treffen.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90642&media=social&tpls=9&v=sexy&userPhotos=45&userDistance=8&userName=Manon&userPicture=https://mapagesecrete.com/final.webp&s1=SNAPCHAT&s2=` + date
-
+	let link = `https://k.schnell-treffen.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90880&media=social&tpls=9&v=sexy&userPhotos=45&userDistance=8&userName=Manon&userPicture=https://mapagesecrete.com/final.webp&s1=SNAPCHAT&s2=` + date
 
 	  
 	function smartLink() {
@@ -74,7 +73,6 @@
 
 
 
-	<script async src="https://c.opfourpro.info/8/js/script.js?id=bAahn"></script>
 	<meta name="description" content={`Accéder à la page privée de ${prenom} pour consulter sa présentation et ses photos. ${prenom} répond généralement aux messages privés en moins d'une heure.`}/>
 	<link rel="icon" href="favicon.png" />
 

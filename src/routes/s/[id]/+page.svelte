@@ -120,7 +120,7 @@
 			</div>
 		</div>
 		<video
-			class="m-auto rounded-[20px] w-[70%] lg:w-[50%] mt-5"
+			class="m-auto rounded-[20px] w-[70%] lg:w-[65%] mt-5"
 			controls
 			poster="/poster.webp"
 			src="/proof.mp4"

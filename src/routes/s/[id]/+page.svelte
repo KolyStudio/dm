@@ -70,6 +70,13 @@
 </script>
 
 <svelte:head>
+
+<script defer
+  src="https://unpkg.com/@tinybirdco/flock.js"
+  data-host="https://api.tinybird.co"
+  data-token="p.eyJ1IjogImNlYTllMjgwLTgxZGItNDg4Zi04OGE5LTIwNTNmZjNjNTJiYiIsICJpZCI6ICIwMDNkM2FkMS01MjcyLTRiY2UtODE4Zi05YzU4NjA1OTdiMWUifQ.WXZCXFwklz8UPb_pwEnGtdAP2BGu61kmg0Xs996BaT8"
+/>
+
 	<title>{titre}</title>
 
 

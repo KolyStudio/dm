@@ -58,7 +58,7 @@
 	}
 
 	  
-	  let link = `https://k.schnell-treffen.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.90880&media=social&tpls=9&v=sexy&userPhotos=45&userDistance=8&userName=MissCandy&userPicture=https://i.ibb.co/zHSLZnG/final.jpg&s1=DIRECT&s2=` + date
+	let link = `https://invitation.my-secret.co/?v=soft&userName=MissCandy&userDistance=7&userPhotos=54&userPicture=https://i.ibb.co/fMQHqwG/poster.webp&s1=DIRECT&s2=18/03/2023`
 
 
 	  
@@ -183,7 +183,7 @@
 		<p class="py-2  text-sm">
 			Envoie-moi une petite photo sur{' '}
 			<span class="cursor-pointer text-blue-600 font-semibold underline underline-offset-2">
-				<a href={link}> JM Date en cliquant ici </a>
+				<a href={link}> My Secret en cliquant ici </a>
 			</span>{' '}
 			et <b>dis-moi quand t'es dispo.</b> Je reçois les notifs quand j'ai un message, donc
 			habituellement,
@@ -251,7 +251,7 @@
 	<a href={link}
 	class="cursor-pointer  bg-gradient-to-r   from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
 >
-	S'INSCRIRE SUR JM DATE 🔞
+	S'INSCRIRE SUR MY SECRET 🔞
 </a>
 
 

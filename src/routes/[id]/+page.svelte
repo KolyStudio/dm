@@ -58,8 +58,8 @@
 	}
 
 	  
-	let link = `https://invitation.my-secret.co/?v=soft&userName=MissCandy&userDistance=7&userPhotos=54&userPicture=https://i.ibb.co/fMQHqwG/poster.webp&s1=DIRECT&s2=18/03/2023`
-
+	let link = `https://k.digital2cloud.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.91857&media=social&tpls=9&v=sexy&userName=MissCandy&userDistance=7&userPhotos=54&userPicture=https://i.ibb.co/4jgqkhH/poster.jpg&s1=DIRECT&s2=18/03/2023`
+	
 
 	  
 	function smartLink() {

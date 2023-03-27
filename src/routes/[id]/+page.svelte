@@ -183,7 +183,7 @@
 		<p class="py-2  text-sm">
 			Envoie-moi une petite photo sur{' '}
 			<span class="cursor-pointer text-blue-600 font-semibold underline underline-offset-2">
-				<a href={link}>JM Date en cliquant ici </a>
+				<a href={link}>My Secret en cliquant ici </a>
 			</span>{' '}
 			et <b>dis-moi quand t'es dispo.</b> Je reçois les notifs quand j'ai un message, donc
 			habituellement,
@@ -251,7 +251,7 @@
 	<a href={link}
 	class="cursor-pointer  bg-gradient-to-r   from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
 >
-	S'INSCRIRE SUR JM DATE 🔞
+	S'INSCRIRE SUR MY SECRET 🔞
 </a>
 
 

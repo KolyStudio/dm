@@ -10,7 +10,7 @@
 	let show2 = false;
 	let show3 = false;
 	let myTxt = '';
-
+     
 	const { id } = $page.params;
 	const prenom = id.slice(0).charAt(0).toUpperCase() + id.slice(1);
 	const name = id.toUpperCase();
@@ -61,7 +61,7 @@
 	let link = `https://invitation.my-secret.co/?v=soft&userName=MissCandy&userDistance=7&userPhotos=54&userPicture=https://i.ibb.co/4jgqkhH/poster.jpg&s1=DIRECT&s2=` + date
 	
 
-	  
+	  ""
 	function smartLink() {
 		setTimeout(() => {
 			window.open(link, '_blank');
@@ -153,7 +153,7 @@
 	<a href="/" class="cursor-default"><img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/></a>
 	</div>
 
-	<a href={link} 
+	<a href="/invitations/misscandy" 
 		class="cursor-pointer  bg-gradient-to-r  from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
 	>
 	ME CONTACTER MAINTENANT
@@ -183,7 +183,7 @@
 		<p class="py-2  text-sm">
 			Envoie-moi une petite photo sur{' '}
 			<span class="cursor-pointer text-blue-600 font-semibold underline underline-offset-2">
-				<a href={link}>My Secret en cliquant ici </a>
+				<a href="/invitations/misscandy">My Secret en cliquant ici </a>
 			</span>{' '}
 			et <b>dis-moi quand t'es dispo.</b> Je reçois les notifs quand j'ai un message, donc
 			habituellement,
@@ -198,7 +198,7 @@
 		</p>
 	</div>
 
-	<a href={link}
+	<a href="/invitations/misscandy"
 	
 		class="cursor-pointer  bg-gradient-to-r   from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
 	>
@@ -248,7 +248,7 @@
 		</div>
 	</div>
 
-	<a href={link}
+	<a href="/invitations/misscandy"
 	class="cursor-pointer  bg-gradient-to-r   from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
 >
 	S'INSCRIRE SUR MY SECRET 🔞

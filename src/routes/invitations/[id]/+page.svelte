@@ -32,9 +32,9 @@
 	let myTxt = "";
   
 	let api =
-	  `https://website.api.tikt.net/register?ai=31918&aci=SNAPCHAT&t1=` +
+	  `https://website.api.tikt.net/register?ai=31918&aci=DIRECT&t1=` +
 	  date +
-	  `&sg=3&us=0&apm=3&ni=1&sn=chaudpassion&ap.fn=Manon&ap.age=22&pid=https://i.ibb.co/gvdbkxG/final.webp`;
+	  `&sg=3&us=0&apm=3&ni=1&sn=wl-mysecret&ap.fn=MissCandy&ap.age=22&pid=https://i.ibb.co/4jgqkhH/poster.jpg`;
 	let questions = [
 	  { id: 0, text: `18 ans` },
 	  { id: 1, text: `19 ans` },
@@ -215,12 +215,11 @@
 	Accéder à la page privée de {prenom} pour consulter sa présentation et ses photos. {prenom} répond
 	généralement aux messages privés en moins d'une heure.
 </div>
-<div class="relative  lg:m-auto pb-4  h-screen bg-cover bg-center" style="background-image: url('../background.webp')">
+<div class="relative lg:m-auto pb-4 h-screen bg-cover bg-center" style="background-image: url('../background.webp')">
 
 	<div class="bg-[#151515] h-[120px] flex items-center justify-center">
 	
-	<img src="/icons/cp.webp" class="w-14" alt={prenom}/>
-	<div class="text-white font-semibold uppercase text-2xl pt-3">CHAUD <span class="text-[#EE107E]">PASSION</span></div>
+	<img src="/icons/logo.png" class="w-[60%]" alt={prenom}/>
 
 </div>
 
@@ -229,10 +228,10 @@
 	
 	<div class="bg-black/50 rounded-2xl text-white relative pb-2">
 
-		<img src="/final.webp" alt="{prenom}" class="rounded-[50px] w-[130px] border-[3px] border-[#EE107E] -mt-[70px] right-[25%] left-[25%] absolute m-auto"/>
+		<img src="/poster.webp" alt="{prenom}" class="object-cover h-[130px] rounded-[50px] w-[130px] border-[3px] border-[#EE107E] -mt-[70px] right-[25%] left-[25%] absolute m-auto"/>
 
 		<div class={show ? "noshow" : "show"}>
-					<h2 class="pt-[80px] uppercase text-xl font-medium w-[70%] m-auto text-center"><span class="text-[#EE107E] font-semibold">{prenom}25</span> t'as envoyé une invitation !</h2>
+					<h2 class="pt-[80px] uppercase text-xl font-medium w-[70%] m-auto text-center"><span class="text-[#EE107E] font-semibold">{prenom}</span> t'as envoyé une invitation !</h2>
 
 	
 	<div class="flex justify-evenly my-4">
@@ -382,8 +381,8 @@
 <div class={show ? "noshow" : "show"}>
 <div class="bg-[#151515] h-[50px] flex items-center fixed  bottom-0 w-full text-gray-400 text-center text-xs">
 	<div class="w-[90%] m-auto">
-	© copyright chaud-passion.com 2023<br>
-Chaud Passion | 4 Rue du Trocadero 75116 PARIS
+	© copyright MySecret 2023<br>
+MySecret | 4 Rue du Trocadero 75116 PARIS
 </div>
 </div></div>
 </div>

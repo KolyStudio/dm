@@ -153,7 +153,7 @@
 	<a href="/" class="cursor-default"><img src="/icons/arrow.webp" alt={prenom} class="w-4 rotate-90"/></a>
 	</div>
 
-	<a href="/invitations/misscandy" 
+	<a href={link} 
 		class="cursor-pointer  bg-gradient-to-r  from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
 	>
 	ME CONTACTER MAINTENANT
@@ -183,7 +183,7 @@
 		<p class="py-2  text-sm">
 			Envoie-moi une petite photo sur{' '}
 			<span class="cursor-pointer text-blue-600 font-semibold underline underline-offset-2">
-				<a href="/invitations/misscandy">My Secret en cliquant ici </a>
+				<a href={link}>My Secret en cliquant ici </a>
 			</span>{' '}
 			et <b>dis-moi quand t'es dispo.</b> Je reçois les notifs quand j'ai un message, donc
 			habituellement,
@@ -198,7 +198,7 @@
 		</p>
 	</div>
 
-	<a href="/invitations/misscandy"
+	<a href={link}
 	
 		class="cursor-pointer  bg-gradient-to-r   from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
 	>
@@ -248,59 +248,12 @@
 		</div>
 	</div>
 
-	<a href="/invitations/misscandy"
+	<a href={link}
 	class="cursor-pointer  bg-gradient-to-r   from-[#800048] to-[#800048] border-b-4 border-[#600137] text-white text-lg font-medium py-4 w-[90%] m-auto flex items-center justify-center rounded-3xl my-2 space-x-4"
 >
 	S'INSCRIRE SUR MY SECRET 🔞
 </a>
 
+</div></div>
 
 
-
-
-
-
-<div class={show ? "show" : "noshow"}>
-	<div class="backdrop-brightness-[.15] fixed top-0 h-full w-full  lg:w-5/12">
-	  <div class="relative flex justify-center items-center pt-10 w-full ">
-		<div class=" bg-[white] w-[95%] lg:w-[75%] m-auto h-[auto] rounded-2xl relative">
-		  <!-- <div class='absolute -mt-20 w-full flex justify-center'>
-						
-						<div class="w-10 h-10 text-xl m-auto cursor-pointer bg-white text-[#1b1c21] text-center rounded-full font-bold pt-[7px]" on:click={close}>✖</div>
-						</div> -->
-		  <div class="flex  space-x-4 justify-center mt-2 items-center px-3">
-			<div
-			  class="flex justify-center items-center my-2 relative w-[200px] lg:w-[130px] m-auto"
-			>
-			  <img
-				src="/final.webp"
-				alt={prenom}
-				class="rounded-[50px]  w-[170px] lg:w-[130px]"
-			  />
-			  <div
-				class="h-6 w-6 rounded-full border-[4px] lg:h-5 lg:w-5 border-[white] bg-[#2bbc69] absolute bottom-0 right-0"
-			  />
-			</div>
-			<div class=" text-black font-medium">
-			  Afin de ne parler qu'à des majeurs, je ne souhaite parler qu'aux
-			  hommes inscrits.{" "}🔞
-			</div>
-		  </div>
-		  <div class="lg:w-9/12 w-12/12 m-auto ">
-			<div
-			  class="w-10/12 m-auto justify-center text-center text-[#2bbc69] font-semibold mt-2"
-			>
-			  Crée ton compte et parle avec moi en <span
-				class="underline">chat</span
-			  > 😏
-			</div>
-			
-		   <div id="formulairedirect" class="text-black"></div> 
-
-			
-		  </div>
-		</div>
-	  </div>
-	</div>
-  </div>
-	</div></div>

@@ -58,7 +58,7 @@
 	}
 
 	  
-	let link = `https://k.digital2cloud.com/?abc=2ab0b5837e6c2796&xa=n&acme=wid.91857&media=social&tpls=9&v=sexy&userName=MissCandy&userDistance=7&userPhotos=54&userPicture=https://i.ibb.co/4jgqkhH/poster.jpg&s1=S&s2=` + date
+	let link = `https://invitation.my-secret.co/?v=soft&userName=MissCandy&userDistance=7&userPhotos=54&userPicture=https://i.ibb.co/4jgqkhH/poster.jpg&s1=SNAPCHAT&s2=` + date
 
 
 	  
@@ -112,7 +112,7 @@
 	généralement aux messages privés en moins d'une heure.
 </div>
 
-<div class="bg-[#151515]">
+<div class="bg-[#152837]">
 <div class="relative lg:w-5/12 lg:m-auto pb-4 ">
 	
 
@@ -175,7 +175,7 @@
 	<div class=" m-auto w-[90%] bg-white rounded-3xl p-5 my-4">
 		<h2 class="font-semibold text-center pb-2">COMMENT ME RENCONTRER EN RÉEL ?</h2>
 
-		Envoie-moi une petite photo sur JM Date et <b>dis-moi quand t'es dispo.</b> Je reçois les notifs quand j'ai un message donc habituellement, <b>je répond en quelques minutes.</b> 
+		Envoie-moi une petite photo sur <a class="text-blue-600 font-semibold underline" href={link}>My Secret en cliquant ici</a> et <b>dis-moi quand t'es dispo.</b> Je reçois les notifs quand j'ai un message donc habituellement, <b>je répond en quelques minutes.</b> 
 		<br><br> 
 		Je préviens l'inscription (essai) coûte quelque chose comme 1 ou 2 euros mais ensuite t'es tranquille tu peux conacter gratuitement <b>autant de filles que tu veux.</b> 
 		<br><br>

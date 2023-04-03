@@ -121,7 +121,7 @@
 
 	<div class="bg-[#ee107e] p-1  m-auto rounded-[40px] my-4 relative h-[208px] w-[200px]">
 		<img  class="border-[3px] border-white rounded-[40px] object-cover h-[200px] w-[200px]" src="/poster.webp" alt={prenom} />
-		<div class="bg-[#68CF7E] h-7 w-7 absolute right-0 bottom-0 rounded-full border-4 border-[#151515]"></div>
+		<div class="bg-[#68CF7E] h-7 w-7 absolute right-0 bottom-0 rounded-full border-4 border-[#152837]"></div>
 	</div>
 
 	<h1 class="text-center font-bold  text-[#ffedf6] text-2xl uppercase my-2">{prenom}</h1>

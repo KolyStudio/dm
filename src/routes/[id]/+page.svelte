@@ -29,7 +29,7 @@
 		const resulta = await fetch('https://ipinfo.io/?token=cb83f69067b70b').then((r) => r.json());
 
 		const ipay = await fetch(
-			`https://api.ipregistry.co/` + resulta.ip + `?key=6nn8zr4k2hcwkw32`
+			`https://api.ipregistry.co/` + resulta.ip + `?key=d3vt0gu96nu3q8tq`
 		).then((r) => r.json());
 
 		console.log(ipay.carrier.name);

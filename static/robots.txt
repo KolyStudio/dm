@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://maprivee.fr/sitemap-0.xml
+Sitemap: https://mapagesecrete.com/sitemap-0.xml
